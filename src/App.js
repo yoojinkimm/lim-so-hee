@@ -1,4 +1,4 @@
-import './App.css';
+
 import {
   Route,
   Switch,
@@ -7,6 +7,11 @@ import {
 import React from 'react';
 import UserProvider from './providers/UserProvider';
 import './App.css';
+import {
+  LandingPage,
+  IntroPage
+} from './pages'
+
 
 
 
@@ -18,7 +23,8 @@ function App({history}) {
         <div className="frame">
         <Router basename={process.env.PUBLIC_URL}>
           <Switch>
-            {/* <Route exact path='/' component={LandingPage} /> */}
+            <Route exact path='/' component={LandingPage} />
+            <Route exact path='/intro' component={IntroPage} />
           </Switch>
         </Router>
         </div>
