@@ -21,15 +21,16 @@
   color: yellow;
   font-size: 30px;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
+  margin-left: 60px;
 }
 
 .intro-policetext {
   color: white;
   font-size: 30px;
-  cursor: pointer;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 
 .intro-name {

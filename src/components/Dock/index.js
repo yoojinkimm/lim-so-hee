@@ -37,7 +37,7 @@ const Dock = ({now}) => {
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon click" src={IconLaunchpad} />
+                    <img className="dock-icon" src={IconLaunchpad} />
                     <div style={{height: 5}}>
                         {now === 'launchpad' &&
                         <img className="dot" src={IconDot} />
@@ -77,7 +77,7 @@ const Dock = ({now}) => {
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon click" src={IconSetting} />
+                    <img className="dock-icon" src={IconSetting} />
                     <div style={{height: 5}}>
                         {now === 'setting' &&
                         <img className="dot" src={IconDot} />
@@ -124,7 +124,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/word')}>
                     <img className="dock-icon click" src={IconWord} />
                     <div style={{height: 5}}>
                         {now === 'word' &&

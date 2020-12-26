@@ -14,7 +14,8 @@ import {
   DesktopPage,
   SapariPage,
   GmailPage,
-  MemoPage
+  MemoPage,
+  WordPage
 } from './pages'
 
 
@@ -35,6 +36,7 @@ function App({history}) {
              <Route exact path='/sapari' component={SapariPage} />
              <Route exact path='/sapari/gmail' component={GmailPage} />
              <Route exact path='/memo' component={MemoPage} />
+             <Route exact path='/word' component={WordPage} />
           </Switch>
         </Router>
         </div>

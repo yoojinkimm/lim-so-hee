@@ -5,6 +5,7 @@ import DesktopPage from './DesktopPage';
 import SapariPage from './SapariPage';
 import GmailPage from './GmailPage';
 import MemoPage from './MemoPage';
+import WordPage from './WordPage';
 
 export {
     LandingPage,
@@ -13,5 +14,6 @@ export {
     DesktopPage,
     SapariPage,
     GmailPage,
-    MemoPage
+    MemoPage,
+    WordPage
 }

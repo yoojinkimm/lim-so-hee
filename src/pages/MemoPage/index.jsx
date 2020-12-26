@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
 import './memo.css';
 
-import { Dock } from '../../components';
+import { Dock, PasswordInput } from '../../components';
 
 // import Clock from 'react-live-clock';
 import { UserContext } from '../../providers/UserProvider';
@@ -16,6 +16,25 @@ import IconYellow from '../../data/icons/btn_yellow.svg';
 import IconGreen from '../../data/icons/btn_green.svg';
 
 
+const diaryFolderNum = 1;
+const diaryFolderPW = '0623';
+const diaryPWhint = '소희의 생일';
+
+const folder1List = [
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+];
+
+const folder2List = [
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
+];
+
 
 
 const MemoPage = () => {
@@ -23,23 +42,12 @@ const MemoPage = () => {
   const { user } = useContext(UserContext);
   const [showFolder, setShowFolder] = useState(0);
   const [showMemo, setShowMemo] = useState(0);
-
   const [showList, setShowList] = useState(true);
+  
 
-  const [folder1List, setFolder1List] = useState([
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-  ])
+  const [inputDiaryPW, setInputDiaryPW] = useState(null);
+  const [showDiary, setShowDiary] = useState(false);
 
-  const [folder2List, setFolder2List] = useState([
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-      {title: '오늘 할일', date: '2020.12.02', contents: <>오늘 할일 엄청 많다 <br /> 진짜 하기 싫다</>},
-  ])
 
   const showMemoList = () => {
       var list = []
@@ -119,20 +127,32 @@ const MemoPage = () => {
                 </div>
             </Col>
 
-            {showList 
+            {showFolder === diaryFolderNum && showDiary === false
             ?
+            <Col sm={10} md={10} lg={10}>
+                <PasswordInput value={inputDiaryPW} setShow={setShowDiary}
+                onChange={(e) => setInputDiaryPW(e.target.value)}
+                answer={diaryFolderPW} hint={diaryPWhint} />
+            </Col>
+
+            :
             <>
-                <Col sm={3} md={3} lg={3}>
-                    {showMemoList()}
-                </Col>
-                <Col sm={7} md={7} lg={7}>
+                {showList 
+                ?
+                <>
+                    <Col sm={3} md={3} lg={3}>
+                        {showMemoList()}
+                    </Col>
+                    <Col sm={7} md={7} lg={7}>
+                        {showMemoContent()}
+                    </Col>
+                </>
+                :
+                <Col sm={10} md={10} lg={10}>
                     {showMemoContent()}
                 </Col>
+                }
             </>
-            :
-            <Col sm={10} md={10} lg={10}>
-                {showMemoContent()}
-            </Col>
             }
         </Row>
             

@@ -121,7 +121,7 @@ const GmailPage = () => {
                 <div className="mail-menu-item click" 
                 style={{backgroundColor: showMailbox === 1 && 'rgba(219,48,37, 0.5)'}}
                 onClick={() => setShowMailBox(1)}>
-                    <div>보낸편지함</div><div>{receivedList.length}</div>
+                    <div>보낸편지함</div><div>{sentList.length}</div>
                 </div>
             </Col>
 
