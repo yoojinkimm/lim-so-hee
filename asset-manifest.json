@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/lim-so-hee/static/css/main.49e3afd1.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.b37a61cd.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.b37a61cd.chunk.js.map",
+    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.2e582b64.js",
+    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.2e582b64.js.map",
+    "static/js/2.144eadb2.chunk.js": "/lim-so-hee/static/js/2.144eadb2.chunk.js",
+    "static/js/2.144eadb2.chunk.js.map": "/lim-so-hee/static/js/2.144eadb2.chunk.js.map",
+    "static/js/3.03c60ace.chunk.js": "/lim-so-hee/static/js/3.03c60ace.chunk.js",
+    "static/js/3.03c60ace.chunk.js.map": "/lim-so-hee/static/js/3.03c60ace.chunk.js.map",
+    "index.html": "/lim-so-hee/index.html",
+    "static/css/main.49e3afd1.chunk.css.map": "/lim-so-hee/static/css/main.49e3afd1.chunk.css.map",
+    "static/js/2.144eadb2.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.144eadb2.chunk.js.LICENSE.txt",
+    "static/media/desktop.css": "/lim-so-hee/static/media/bg.64708781.png",
+    "static/media/cancel icon.5d3157eb.svg": "/lim-so-hee/static/media/cancel icon.5d3157eb.svg",
+    "static/media/header.a632040c.svg": "/lim-so-hee/static/media/header.a632040c.svg",
+    "static/media/phone_call.e2a0aa5a.png": "/lim-so-hee/static/media/phone_call.e2a0aa5a.png",
+    "static/media/phone_ring.b6333439.png": "/lim-so-hee/static/media/phone_ring.b6333439.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e582b64.js",
+    "static/js/2.144eadb2.chunk.js",
+    "static/css/main.49e3afd1.chunk.css",
+    "static/js/main.b37a61cd.chunk.js"
+  ]
+}
