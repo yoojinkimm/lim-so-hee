@@ -20,6 +20,8 @@ const IntroPage = () => {
   const [showPoliceText, setShowPoliceText] = useState(null);
   const [showMeText, setShowMeText] = useState(null);
 
+  const [update, setUpdate] = useState(false);
+
 
   const text = [
     {   
@@ -99,42 +101,40 @@ const IntroPage = () => {
       if (storyStep === 6) {
           setUser({name: name})
       }
-      // typingText();
   }, [storyStep])
-
-
-  const typingText = () => {
-      setShowPoliceText(null);
-      setShowMeText(null);
-
-      if(storyStep === 1) {
-          var list = text[0].me.split("");
-          var index = 0;
-          var metext = <></>;
-          var doStory = true;
-
-          if(doStory) {
-            setInterval(() => {
-                metext.append(<>{list[index]}</>);
-                setShowMeText(metext);
-                index += 1;
-
-                if(index === list.length) doStory=false;
-            }, 100)
-          }
-      }
-  }
 
 
   const ShowText = ({num}) => {
     const pt = text[num-1].police;
     const mt = text[num-1].me;
+    
+    
+
     return(
         <>
             <div className="intro-policetext typing">
                 {pt.map( (item, index) => {
+                    var list = item.split("");
                     return (
-                        <>{item} <br /> </>
+                        <>
+                        {list.map((letter, i) => {
+                            var text = [];
+
+                            // setInterval(() => {
+                                text.push(<span>{letter}</span>);
+                                // setUpdate(!update);
+                            // }, 100)
+                            
+
+                            return(
+                                <>
+                                    {text}
+                                </>
+                            )
+                        })
+                        }
+                        <br /> 
+                        </>
                     )
                 })}
             </div>
