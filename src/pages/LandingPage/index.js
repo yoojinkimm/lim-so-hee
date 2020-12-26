@@ -13,10 +13,10 @@ const LandingPage = () => {
   const history = useHistory();
   const [showBtn, setShowBtn] = useState(false)
   const props = useSpring({
-    from: { width: '0%', background: 'white' },
+    from: { width: '5%', background: 'white' },
     to: { width: '100%', background: 'white' },
     onRest: () => setShowBtn(true),
-    delay: 100,
+    delay: 1000,
   })
   const handleNext = () => {
       history.push('/intro')
