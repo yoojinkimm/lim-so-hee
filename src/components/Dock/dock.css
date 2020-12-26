@@ -1,0 +1,39 @@
+.desktop-dock {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: auto;
+  height: 70px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-bottom-floating {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.dock-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  height: auto;
+  cursor: pointer;
+}
+
+.dock-icon {
+  height: 40px;
+  width: auto;
+}

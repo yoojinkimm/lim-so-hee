@@ -6,7 +6,12 @@ import { Button, Row, Col } from 'react-bootstrap';
 import './desktop.css';
 
 
+import { Dock, Folder } from '../../components';
+
 import Clock from 'react-live-clock';
+
+
+
 
 const DesktopPage = () => {
   const history = useHistory();
@@ -17,26 +22,34 @@ const DesktopPage = () => {
   return (
     <div className="desktop-background">
         <div className="desktop-top-floating">
-            <div className='header-text'><Clock format={'ddd MMM D HH:mm A'} ticking={true} /></div>
+            <div className='header-text'>Dec 31</div>
+            <div className='header-text'><Clock format={'HH:mm A'} ticking={true} /></div>
         </div>
 
-        <div>
+        <div className="desktop-contents">
+            <Row style={{width: '100%'}}>
+                <Col></Col>
+                <Col sm={2} md={2} lg={2}>
+                    <Folder name={'포폴'} />
+                </Col>
+                <Col sm={2} md={2} lg={2}>
+                    <Folder name={'자소서'} />
+                </Col>
+            </Row>
+             <Row style={{width: '100%'}}>
+                <Col sm={2} md={2} lg={2}>
+                    <Folder name={'사진'} />
+                </Col>
+            </Row>
+             <Row style={{width: '100%'}}>
+                <Col sm={2} md={2} lg={2}>
+                    <Folder name={'삼성 백업'} />
+                </Col>
+                <Col></Col>
+            </Row>
         </div>
 
-        <div className="desktop-bottom-floating">
-            <div className="desktop-dock">
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>파인더</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>런치패드</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>카톡</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>캘린더</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>메모장</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>일러</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>포토샵</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>프리미어</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>마야</div>
-                <div style={{fontSize: 20, color: 'black', margin: 10}}>워드</div>
-            </div>
-        </div>
+        <Dock />
     </div>
   );
 }

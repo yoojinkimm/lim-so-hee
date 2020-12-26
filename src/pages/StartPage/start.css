@@ -70,3 +70,9 @@
   color: white;
   cursor: pointer;
 }
+
+.header-text {
+  font-size: 12px;
+  color: white;
+  margin-left: 5px;
+}
