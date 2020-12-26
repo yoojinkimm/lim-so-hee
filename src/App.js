@@ -11,6 +11,7 @@ import {
   LandingPage,
   IntroPage,
   StartPage,
+  DesktopPage,
 } from './pages'
 
 
@@ -27,6 +28,7 @@ function App({history}) {
             <Route exact path='/' component={LandingPage} />
             <Route exact path='/intro' component={IntroPage} />
             <Route exact path='/start' component={StartPage} />
+            <Route exact path='/desktop' component={DesktopPage} />
           </Switch>
         </Router>
         </div>
