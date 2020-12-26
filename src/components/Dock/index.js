@@ -15,7 +15,7 @@ import IconIllust from '../../data/icons/Illustrator.svg';
 import IconPremiere from '../../data/icons/Premiere.svg';
 import IconAE from '../../data/icons/After Effects.svg';
 import IconMaya from '../../data/icons/maya.png';
-import IconWord from '../../data/icons/maya.png';
+import IconWord from '../../data/icons/word.png';
 import IconExcel from '../../data/icons/excel.png';
 
 import IconDot from '../../data/icons/dot.svg';
