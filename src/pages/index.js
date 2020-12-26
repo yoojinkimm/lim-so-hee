@@ -3,11 +3,13 @@ import IntroPage from './IntroPage';
 import StartPage from './StartPage';
 import DesktopPage from './DesktopPage';
 import SapariPage from './SapariPage';
+import GmailPage from './GmailPage';
 
 export {
     LandingPage,
     IntroPage,
     StartPage,
     DesktopPage,
-    SapariPage
+    SapariPage,
+    GmailPage,
 }

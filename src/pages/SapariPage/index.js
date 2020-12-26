@@ -80,7 +80,7 @@ const SapariPage = () => {
 
         <div className="sapari-contents">
             <div className="sapari-floating">
-                <img className="google-gmail profile-logo click" src={TextGmail} />
+                <img className="google-gmail profile-logo click" src={TextGmail} onClick={() => history.push('/sapari/gmail')} />
                 <img className="google-image profile-logo" src={TextImage} />
                 <img className="google-menu profile-logo" src={IconMenu} />
                 <img className="google-account profile-logo" src={IconAccount} />
