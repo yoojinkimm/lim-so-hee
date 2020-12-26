@@ -68,7 +68,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/memo')}>
                     <img className="dock-icon click" src={IconMemo} />
                     <div style={{height: 5}}>
                         {now === 'memo' &&
