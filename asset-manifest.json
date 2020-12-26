@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.49e3afd1.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.b37a61cd.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.b37a61cd.chunk.js.map",
-    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.2e582b64.js",
-    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.2e582b64.js.map",
-    "static/js/2.144eadb2.chunk.js": "/lim-so-hee/static/js/2.144eadb2.chunk.js",
-    "static/js/2.144eadb2.chunk.js.map": "/lim-so-hee/static/js/2.144eadb2.chunk.js.map",
-    "static/js/3.03c60ace.chunk.js": "/lim-so-hee/static/js/3.03c60ace.chunk.js",
-    "static/js/3.03c60ace.chunk.js.map": "/lim-so-hee/static/js/3.03c60ace.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.79aa5e1b.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.0cdc9e87.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.0cdc9e87.chunk.js.map",
+    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.97a96210.js",
+    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.97a96210.js.map",
+    "static/js/2.3f7a931f.chunk.js": "/lim-so-hee/static/js/2.3f7a931f.chunk.js",
+    "static/js/2.3f7a931f.chunk.js.map": "/lim-so-hee/static/js/2.3f7a931f.chunk.js.map",
+    "static/js/3.ced6147e.chunk.js": "/lim-so-hee/static/js/3.ced6147e.chunk.js",
+    "static/js/3.ced6147e.chunk.js.map": "/lim-so-hee/static/js/3.ced6147e.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.49e3afd1.chunk.css.map": "/lim-so-hee/static/css/main.49e3afd1.chunk.css.map",
-    "static/js/2.144eadb2.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.144eadb2.chunk.js.LICENSE.txt",
+    "static/css/main.79aa5e1b.chunk.css.map": "/lim-so-hee/static/css/main.79aa5e1b.chunk.css.map",
+    "static/js/2.3f7a931f.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.3f7a931f.chunk.js.LICENSE.txt",
+    "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
+    "static/media/Illustrator.a8895d51.svg": "/lim-so-hee/static/media/Illustrator.a8895d51.svg",
+    "static/media/Photoshop.f34efa62.svg": "/lim-so-hee/static/media/Photoshop.f34efa62.svg",
+    "static/media/Premiere.d24349fe.svg": "/lim-so-hee/static/media/Premiere.d24349fe.svg",
     "static/media/desktop.css": "/lim-so-hee/static/media/bg.64708781.png",
     "static/media/cancel icon.5d3157eb.svg": "/lim-so-hee/static/media/cancel icon.5d3157eb.svg",
+    "static/media/dot.1b99c6eb.svg": "/lim-so-hee/static/media/dot.1b99c6eb.svg",
     "static/media/header.a632040c.svg": "/lim-so-hee/static/media/header.a632040c.svg",
+    "static/media/kakaotalk.2a590c6e.svg": "/lim-so-hee/static/media/kakaotalk.2a590c6e.svg",
     "static/media/phone_call.e2a0aa5a.png": "/lim-so-hee/static/media/phone_call.e2a0aa5a.png",
     "static/media/phone_ring.b6333439.png": "/lim-so-hee/static/media/phone_ring.b6333439.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e582b64.js",
-    "static/js/2.144eadb2.chunk.js",
-    "static/css/main.49e3afd1.chunk.css",
-    "static/js/main.b37a61cd.chunk.js"
+    "static/js/runtime-main.97a96210.js",
+    "static/js/2.3f7a931f.chunk.js",
+    "static/css/main.79aa5e1b.chunk.css",
+    "static/js/main.0cdc9e87.chunk.js"
   ]
 }
