@@ -9,7 +9,8 @@ import UserProvider from './providers/UserProvider';
 import './App.css';
 import {
   LandingPage,
-  IntroPage
+  IntroPage,
+  StartPage,
 } from './pages'
 
 
@@ -25,6 +26,7 @@ function App({history}) {
           <Switch>
             <Route exact path='/' component={LandingPage} />
             <Route exact path='/intro' component={IntroPage} />
+            <Route exact path='/start' component={StartPage} />
           </Switch>
         </Router>
         </div>

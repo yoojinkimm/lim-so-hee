@@ -19,3 +19,16 @@
   color: white;
   font-size: 36px;
 }
+
+.loading-container {
+  width: 400px;
+  height: 100px;
+}
+
+.loading-box {
+  margin-top: 20px;
+  will-change: width;
+  position: relative;
+  height: 5px;
+  border-radius: 5px;
+}
