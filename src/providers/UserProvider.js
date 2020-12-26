@@ -7,9 +7,7 @@ function UserProvider ({ render }) {
     const [language, setLanguage] = useState('ko');
 
 
-    useEffect(() => {
-        // console.log('language :', language)
-    }, [language])
+    
 
     return(
         <UserContext.Provider value={{

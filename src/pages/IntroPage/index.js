@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import '../../App.css';
 import { useHistory } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
@@ -8,12 +8,15 @@ import PhoneCall from '../../data/images/phone_call.png';
 import PhoneRing from '../../data/images/phone_ring.png';
 
 import './intro.css';
+import { UserContext } from '../../providers/UserProvider';
 
 
 const IntroPage = () => {
+  const { setUser } = useContext(UserContext);
   const [storyStep, SetStoryStep] = useState(0);
   const [name, setName] = useState(null);
   const history = useHistory();
+
 
   const text = [
     {   
@@ -74,6 +77,12 @@ const IntroPage = () => {
   const handleNext = () => {
     history.push('/start')
   }
+
+  useEffect(() => {
+      if (storyStep === 6) {
+          setUser({name: name})
+      }
+  }, [storyStep])
 
   
 

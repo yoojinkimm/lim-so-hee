@@ -22,93 +22,122 @@ import IconDot from '../../data/icons/dot.svg';
 
 
 
-const Dock = () => {
+const Dock = ({now}) => {
+    const history = useHistory();
 
     return(
         <div className="desktop-bottom-floating">
             <div className="desktop-dock">
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconFinder} />
+                    <img className="dock-icon click" src={IconFinder} />
                     <div style={{height: 5}}>
+                        {now === 'finder' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconLaunchpad} />
+                    <img className="dock-icon click" src={IconLaunchpad} />
                     <div style={{height: 5}}>
+                        {now === 'launchpad' &&
                         <img className="dot" src={IconDot} />
+                        }
+                    </div>
+                </div>
+                <div className="dock-col" onClick={() => history.push('/sapari')}>
+                    <img className="dock-icon click" src={IconSapari} />
+                    <div style={{height: 5}}>
+                        {now === 'sapari' &&
+                        <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconSapari} />
+                    <img className="dock-icon click" src={IconKakao} />
                     <div style={{height: 5}}>
+                        {now === 'kakao' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconKakao} />
+                    <img className="dock-icon click" src={IconCalendar} />
                     <div style={{height: 5}}>
+                        {now === 'calendar' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconCalendar} />
+                    <img className="dock-icon click" src={IconMemo} />
                     <div style={{height: 5}}>
+                        {now === 'memo' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconMemo} />
+                    <img className="dock-icon click" src={IconSetting} />
                     <div style={{height: 5}}>
+                        {now === 'setting' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconSetting} />
+                    <img className="dock-icon click" src={IconPhotoshop} />
                     <div style={{height: 5}}>
+                        {now === 'photoshop' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconPhotoshop} />
+                    <img className="dock-icon click" src={IconIllust} />
                     <div style={{height: 5}}>
+                        {now === 'illust' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconIllust} />
+                    <img className="dock-icon click" src={IconPremiere} />
                     <div style={{height: 5}}>
+                        {now === 'premiere' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconPremiere} />
+                    <img className="dock-icon click" src={IconAE} />
                     <div style={{height: 5}}>
+                        {now === 'ae' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconAE} />
+                    <img className="dock-icon click" src={IconMaya} />
                     <div style={{height: 5}}>
+                        {now === 'maya' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconMaya} />
+                    <img className="dock-icon click" src={IconWord} />
                     <div style={{height: 5}}>
+                        {now === 'word' &&
                         <img className="dot" src={IconDot} />
+                        }
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon" src={IconWord} />
+                    <img className="dock-icon click" src={IconExcel} />
                     <div style={{height: 5}}>
+                        {now === 'excel' &&
                         <img className="dot" src={IconDot} />
-                    </div>
-                </div>
-                <div className="dock-col">
-                    <img className="dock-icon" src={IconExcel} />
-                    <div style={{height: 5}}>
-                        <img className="dot" src={IconDot} />
+                        }     
                     </div>
                 </div>
             </div>

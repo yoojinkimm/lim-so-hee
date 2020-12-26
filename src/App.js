@@ -12,6 +12,7 @@ import {
   IntroPage,
   StartPage,
   DesktopPage,
+  SapariPage
 } from './pages'
 
 
@@ -29,6 +30,7 @@ function App({history}) {
             <Route exact path='/intro' component={IntroPage} />
             <Route exact path='/start' component={StartPage} />
             <Route exact path='/desktop' component={DesktopPage} />
+             <Route exact path='/sapari' component={SapariPage} />
           </Switch>
         </Router>
         </div>

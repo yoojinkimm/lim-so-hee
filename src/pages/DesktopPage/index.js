@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import '../../App.css';
 import { useHistory } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
@@ -9,6 +9,7 @@ import './desktop.css';
 import { Dock, Folder } from '../../components';
 
 import Clock from 'react-live-clock';
+import { UserContext } from '../../providers/UserProvider';
 
 
 
@@ -16,6 +17,11 @@ import Clock from 'react-live-clock';
 const DesktopPage = () => {
   const history = useHistory();
   const [password, setPassword] = useState("")
+  const { user } = useContext(UserContext);
+
+  useEffect(() => {
+      if( user !== null) console.log('현재 이용자: ', user.name)
+  }, [])
 
   
 
