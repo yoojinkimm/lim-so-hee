@@ -19,7 +19,7 @@ const LandingPage = () => {
     delay: 1000,
   })
   const handleNext = () => {
-      history.push('/intro')
+      history.push('/start')
   }
 
   return (
@@ -33,7 +33,7 @@ const LandingPage = () => {
 
         <div style={{height: 38}}>
         {showBtn &&
-            <Button variant="light" onClick={() => handleNext()}>시작하기</Button>
+            <Button variant="light" onClick={() => handleNext()}>확인</Button>
         }
         </div>
     </div>

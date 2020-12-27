@@ -6,6 +6,14 @@ import SapariPage from './SapariPage';
 import GmailPage from './GmailPage';
 import MemoPage from './MemoPage';
 import WordPage from './WordPage';
+import PremierePage from'./PremierePage';
+import IllustPage from './IllustPage';
+import MayaPage from './MayaPage';
+import CalendarPage from './CalendarPage';
+import PptPage from './PptPage';
+
+
+
 
 export {
     LandingPage,
@@ -15,5 +23,10 @@ export {
     SapariPage,
     GmailPage,
     MemoPage,
-    WordPage
+    WordPage,
+    PremierePage,
+    IllustPage,
+    MayaPage,
+    CalendarPage,
+    PptPage
 }

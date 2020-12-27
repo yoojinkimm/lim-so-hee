@@ -29,7 +29,7 @@ const DesktopPage = () => {
     <div className="desktop-background">
         <div className="desktop-top-floating">
             <div className='header-text'>Dec 31</div>
-            <div className='header-text'><Clock format={'HH:mm A'} ticking={true} /></div>
+            <div className='header-text'><Clock format={' h:mm A'} ticking={true} /></div>
         </div>
 
         <div className="desktop-contents">

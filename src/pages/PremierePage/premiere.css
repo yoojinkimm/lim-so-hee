@@ -1,0 +1,36 @@
+.premiere-background {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../data/images/bg.png");
+}
+
+.premiere-container {
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(220, 220, 220);
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+.premiere-header {
+  width: 100%;
+}
+.premiere-header-text {
+  color: black;
+  font-size: 14px;
+}
+
+.premiere-image {
+  width: 100%;
+  height: 100%;
+}

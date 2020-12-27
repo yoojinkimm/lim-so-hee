@@ -62,7 +62,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/calendar')}>
                     <img className="dock-icon click" src={IconCalendar} />
                     <div style={{height: 5}}>
                         {now === 'calendar' &&
@@ -94,7 +94,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/illust')}>
                     <img className="dock-icon click" src={IconIllust} />
                     <div style={{height: 5}}>
                         {now === 'illust' &&
@@ -102,7 +102,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/premiere')}>
                     <img className="dock-icon click" src={IconPremiere} />
                     <div style={{height: 5}}>
                         {now === 'premiere' &&
@@ -118,7 +118,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/maya')}>
                     <img className="dock-icon click" src={IconMaya} />
                     <div style={{height: 5}}>
                         {now === 'maya' &&
@@ -130,6 +130,14 @@ const Dock = ({now}) => {
                     <img className="dock-icon click" src={IconWord} />
                     <div style={{height: 5}}>
                         {now === 'word' &&
+                        <img className="dot" src={IconDot} />
+                        }
+                    </div>
+                </div>
+                <div className="dock-col" onClick={() => history.push('/ppt')}>
+                    <img className="dock-icon click" src={IconWord} />
+                    <div style={{height: 5}}>
+                        {now === 'ppt' &&
                         <img className="dot" src={IconDot} />
                         }
                     </div>
