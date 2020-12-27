@@ -64,6 +64,33 @@
   border-bottom: solid 1px rgba(220, 220, 220);
 }
 
+.mail-cotents-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+}
+
+.mail-contents-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mail-contents-title {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+.mail-contents-text {
+  padding: 50px;
+}
+
 .col,
 .col-1,
 .col-10,
