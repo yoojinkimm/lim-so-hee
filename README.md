@@ -1,31 +1,13 @@
 # lim-so-hee
 
-2020-2 Sogang Univ. Visual Story Final Project
-Web Game
+[2020-2 Visual Story in Sogang Univ] Final Project: Web Mystery Game
 
-## Available Scripts
+## Available on Following Link
 
-In the project directory, you can run:
+https://yoojin-kim.github.io/lim-so-hee/ <br />
+supports only Korean
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tech
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React, useContext, Browser Router, Github Pages
