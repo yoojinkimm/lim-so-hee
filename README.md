@@ -1,9 +1,8 @@
 # lim-so-hee
 
-2020-2 Sogang Univ. Visual Story Final Project
-Web Game
+[2020-2 Visual Story in Sogang Univ] Final Project: Web Mystery Game
 
-## Available on Link below
+## Available on Following Link
 
 https://yoojin-kim.github.io/lim-so-hee/
 
