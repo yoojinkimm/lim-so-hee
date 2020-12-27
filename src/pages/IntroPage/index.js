@@ -10,6 +10,8 @@ import PhoneRing from '../../data/images/phone_ring.png';
 import './intro.css';
 import { UserContext } from '../../providers/UserProvider';
 
+import Typing from 'react-typing-animation';
+
 
 const IntroPage = () => {
   const { setUser } = useContext(UserContext);
@@ -25,7 +27,7 @@ const IntroPage = () => {
 
   const text = [
     {   
-        police: [''],
+        police: [' '],
         me: ['여보세요?']
     },
     {
@@ -49,7 +51,7 @@ const IntroPage = () => {
             '일단 행방을 알아보고 있습니다.',
             '친구분 성함이 어떻게 되시죠?'
         ],
-        me: ['']
+        me: [' ']
     },
     {
         police: [
@@ -83,13 +85,14 @@ const IntroPage = () => {
             '소희씨 행방에 도움을 줄 수 있는 정보가 있나',
             '봐주시면 감사하겠습니다.'
         ],
-        me: ['']
+        me: [' ']
     }
 ]
 
-  const handleName = (num) => {
-      if(name !== null) {
+  const handleName = (num, input) => {
+      if(input !== null) {
           SetStoryStep(num)
+          setName(input)
       }
   }
 
@@ -101,50 +104,71 @@ const IntroPage = () => {
       if (storyStep === 6) {
           setUser({name: name})
       }
-  }, [storyStep])
+  }, [storyStep, name])
 
 
   const ShowText = ({num}) => {
     const pt = text[num-1].police;
     const mt = text[num-1].me;
-    
-    
+
+    const [startMe, setStartMe] = useState(false);
+
+    var input;
 
     return(
         <>
-            <div className="intro-policetext typing">
-                {pt.map( (item, index) => {
-                    var list = item.split("");
-                    return (
-                        <>
-                        {list.map((letter, i) => {
-                            var text = [];
-
-                            // setInterval(() => {
-                                text.push(<span>{letter}</span>);
-                                // setUpdate(!update);
-                            // }, 100)
-                            
-
-                            return(
-                                <>
-                                    {text}
-                                </>
-                            )
-                        })
-                        }
-                        <br /> 
-                        </>
-                    )
-                })}
+             <div className="intro-policetext typing">
+                <Typing hideCursor onFinishedTyping={() => setStartMe(true)}>
+                    <>
+                    {pt.map((item, index) => {
+                        return (
+                            <>{item} <br /> </>
+                        )
+                    })}
+                    </>
+                </Typing>
             </div>
-            <div className="intro-mytext typing" 
-            onClick={() => SetStoryStep(num+1)}>
-                {mt.map((item, index) => {
-                    return (
-                        <>{item} <br /> </>
-                    )
-                })}
+            <div>
+                { startMe &&
+                <>
+                    {/* 이름을 입력받는 경우 */}
+                    {storyStep === 5 
+                        ?
+                        <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
+                            <input className="intro-name" 
+                            value={input}
+                            onChange={(e) => input = e.target.value}
+                            onKeyPress={(e) => {if(e.key ==='Enter') handleName(6, input)}}
+                            placeholder="본인의 이름을 입력하세요." />
+                            <Button variant="light" onClick={() => handleName(6, input)}>확인</Button>
+                        </div>
+                        :
+                        <>
+                        {/* 마지막인 경우 */}
+                        {storyStep === 9 
+                            ?
+                            <div style={{display: 'flex', justifyContent: 'center'}}>
+                                <Button variant="light" onClick={() => handleNext()}>보러가기</Button>
+                            </div>
+                            :
+                            /* 대사만 보여주는 경우들 */
+                            <div className="intro-mytext typing" 
+                            onClick={() => SetStoryStep(num+1)}>
+                            <Typing hideCursor>
+                            <>
+                                {mt.map((item, index) => {
+                                    return (
+                                        <>{item} <br /> </>
+                                    )
+                                })}
+                            </>
+                            </Typing>
+                            </div>
+                        }
+                        </>
+                    }
+                </>
+                }
             </div>
         </>
     )
@@ -163,8 +187,8 @@ const IntroPage = () => {
         <Row style={{display: 'flex', alignItems: 'center', width: '100%'}}>
             <Col xl={7} md={7} sm={7}>
 
-                {/* 이름을 입력받는 경우 */}
-                {storyStep === 5 
+                
+                {/* {storyStep === 5 
                 ?
                 <>
                     <ShowText num={storyStep} />
@@ -179,7 +203,7 @@ const IntroPage = () => {
                 </>
                 :
                 <>
-                    {/* 마지막인 경우 */}
+                    
                     {storyStep === 9 
                         ?
                         <>
@@ -190,11 +214,12 @@ const IntroPage = () => {
                         </>
                         :
                         
-                        /* 대사만 보여주는 경우들 */
+                        
                         <ShowText num={storyStep} />
                     }
                 </>
-                }
+                } */}
+                <ShowText num={storyStep} />
             </Col>
             <Col xl={5} md={5} sm={5}>
                 <img className="intro-phone" src={PhoneCall} />
