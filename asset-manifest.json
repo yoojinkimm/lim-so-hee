@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.66490e94.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.0c2f7556.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.0c2f7556.chunk.js.map",
-    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.4e5c7de4.js",
-    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.4e5c7de4.js.map",
-    "static/js/2.17d26894.chunk.js": "/lim-so-hee/static/js/2.17d26894.chunk.js",
-    "static/js/2.17d26894.chunk.js.map": "/lim-so-hee/static/js/2.17d26894.chunk.js.map",
-    "static/js/3.e5d675e5.chunk.js": "/lim-so-hee/static/js/3.e5d675e5.chunk.js",
-    "static/js/3.e5d675e5.chunk.js.map": "/lim-so-hee/static/js/3.e5d675e5.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.7fc8ae61.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.5e1928d1.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.5e1928d1.chunk.js.map",
+    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.eceea7ae.js",
+    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.eceea7ae.js.map",
+    "static/js/2.b7074a89.chunk.js": "/lim-so-hee/static/js/2.b7074a89.chunk.js",
+    "static/js/2.b7074a89.chunk.js.map": "/lim-so-hee/static/js/2.b7074a89.chunk.js.map",
+    "static/js/3.90180ba4.chunk.js": "/lim-so-hee/static/js/3.90180ba4.chunk.js",
+    "static/js/3.90180ba4.chunk.js.map": "/lim-so-hee/static/js/3.90180ba4.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.66490e94.chunk.css.map": "/lim-so-hee/static/css/main.66490e94.chunk.css.map",
-    "static/js/2.17d26894.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.17d26894.chunk.js.LICENSE.txt",
+    "static/css/main.7fc8ae61.chunk.css.map": "/lim-so-hee/static/css/main.7fc8ae61.chunk.css.map",
+    "static/js/2.b7074a89.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.b7074a89.chunk.js.LICENSE.txt",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
+    "static/media/Back Button.5e7993fa.svg": "/lim-so-hee/static/media/Back Button.5e7993fa.svg",
+    "static/media/Date Star.d5f24040.svg": "/lim-so-hee/static/media/Date Star.d5f24040.svg",
     "static/media/Gmail-Logo.3ff7d0e0.svg": "/lim-so-hee/static/media/Gmail-Logo.3ff7d0e0.svg",
     "static/media/Gmail_icon.3673ecab.svg": "/lim-so-hee/static/media/Gmail_icon.3673ecab.svg",
     "static/media/Illustrator.a8895d51.svg": "/lim-so-hee/static/media/Illustrator.a8895d51.svg",
     "static/media/Photoshop.f34efa62.svg": "/lim-so-hee/static/media/Photoshop.f34efa62.svg",
     "static/media/Premiere.d24349fe.svg": "/lim-so-hee/static/media/Premiere.d24349fe.svg",
+    "static/media/Sender.c923e78e.svg": "/lim-so-hee/static/media/Sender.c923e78e.svg",
     "static/media/word.css": "/lim-so-hee/static/media/paper.505bf3a9.svg",
     "static/media/btn_green.6e633c6a.svg": "/lim-so-hee/static/media/btn_green.6e633c6a.svg",
     "static/media/btn_red.48c75725.svg": "/lim-so-hee/static/media/btn_red.48c75725.svg",
@@ -47,9 +50,9 @@
     "static/media/삭제.a339fbb2.svg": "/lim-so-hee/static/media/삭제.a339fbb2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e5c7de4.js",
-    "static/js/2.17d26894.chunk.js",
-    "static/css/main.66490e94.chunk.css",
-    "static/js/main.0c2f7556.chunk.js"
+    "static/js/runtime-main.eceea7ae.js",
+    "static/js/2.b7074a89.chunk.js",
+    "static/css/main.7fc8ae61.chunk.css",
+    "static/js/main.5e1928d1.chunk.js"
   ]
 }
