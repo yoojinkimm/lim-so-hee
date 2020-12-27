@@ -4,7 +4,8 @@
 
 ## Available on Following Link
 
-https://yoojin-kim.github.io/lim-so-hee/
+https://yoojin-kim.github.io/lim-so-hee/ <br />
+supports only Korean
 
 
 ### Tech
