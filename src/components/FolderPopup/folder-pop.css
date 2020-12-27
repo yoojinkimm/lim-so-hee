@@ -1,0 +1,28 @@
+.folder-popup {
+  position: fixed;
+  width: 50vw;
+  height: 30vw;
+  background-color: white;
+  will-change: z-index;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.folder-title-text {
+  font-size: 14px;
+}
+.folder-menu {
+  background-color: rgba(220, 220, 220, 0.5);
+  border-bottom-left-radius: 12px;
+  margin-top: 26px;
+}
+.folder-menu-top {
+  font-size: 14px;
+  color: rgba(100, 100, 100);
+  padding: 8px;
+}
+.folder-menu-text {
+  font-size: 16px;
+  color: rgba(50, 50, 50);
+  padding-top: 4px;
+  padding-left: 16px;
+}

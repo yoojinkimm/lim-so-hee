@@ -20,15 +20,17 @@ import IconExcel from '../../data/icons/excel.png';
 
 import IconDot from '../../data/icons/dot.svg';
 
-
+import FolderPopup from '../FolderPopup';
 
 const Dock = ({now}) => {
     const history = useHistory();
+    const [showPopup, setShowPopup] = useState(false)
 
     return(
+        <>
         <div className="desktop-bottom-floating">
             <div className="desktop-dock">
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => setShowPopup(true)}>
                     <img className="dock-icon click" src={IconFinder} />
                     <div style={{height: 5}}>
                         {now === 'finder' &&
@@ -142,6 +144,9 @@ const Dock = ({now}) => {
                 </div>
             </div>
         </div>
+
+        <FolderPopup show={showPopup} setShow={setShowPopup} folderName={'documents'} />
+        </>
     )
 }
 
