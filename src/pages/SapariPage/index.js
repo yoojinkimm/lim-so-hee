@@ -40,11 +40,17 @@ const SapariPage = () => {
   const [update, setUpdate] = useState(false);
 
   const [historyList, setHistoryList] = useState([
-      "학자금 대출",
-      "국가장학금",
-      "생활비 장학금",
-      "대학생 생활비 지원",
-      "면접 준비",
+      "학자금 대출 상환기간",
+      "경기도 청년 기본소득",
+      "바람 어디서 부는지",
+      "암탉이 울면",
+      "이주선",
+      "필름 메이커스",
+      "영화 시나리오 학원",
+      "영화 대학원",
+      "KCA 결과",
+      "KCA 접수",
+
   ])
 
   const handleSearch = () => {

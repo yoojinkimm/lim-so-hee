@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useContext } from 'react';
 import '../../App.css';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
 import './ppt.css';
 
@@ -15,56 +15,33 @@ import IconRed from '../../data/icons/btn_red.svg';
 import IconYellow from '../../data/icons/btn_yellow.svg';
 import IconGreen from '../../data/icons/btn_green.svg';
 
-import Image0 from '../../data/images/공모전.png';
-import Image1 from '../../data/images/공모전2.png';
-import Image2 from '../../data/images/대외활동.png';
-import Image3 from '../../data/images/웹디 과제.png';
-import Image4 from '../../data/images/인창 과제.png';
-import Image5 from '../../data/images/종세문 과제.png';
-
-
-const text = [
-    {
-        location: '/User/limsohee/desktop/동아리/',
-        title: '공모전 최종',
-        url: Image0,
-    },
-    {
-        location: '/User/limsohee/desktop/동아리/',
-        title: '아이디어 공모전 최종',
-        url: Image1,
-    },
-    {
-        location: '/User/limsohee/desktop/동아리/',
-        title: '마케팅 대외활동',
-        url: Image2,
-    },
-    {
-        location: '/User/limsohee/desktop/동아리/',
-        title: '웹디 과제',
-        url: Image3,
-    },
-    {
-        location: '/User/limsohee/desktop/동아리/',
-        title: '인창 과제',
-        url: Image4
-    },
-    {
-        location: '/User/limsohee/desktop/동아리/',
-        title: '종세문 과제',
-        url: Image4
-    },
-];
+import * as data from '../../data/text/ppt';
 
 
 
-const PptPage = ({num}) => {
+const PptPage = () => {
   const history = useHistory();
   const { user } = useContext(UserContext);
+  const location = useLocation();
+  const [item, setItem] = useState( {
+        location: '',
+        title: '',
+        url: '',
+    },);
 
-  const index = num !== undefined ? num : 0;
-
-  const item = text[index]
+  useEffect(() => {
+      if (location.state !== undefined){
+          if (location.state.title === "공모전 최종") setItem(data.text[0])
+          if (location.state.title === "아이디어 공모전 최종") setItem(data.text[1])
+          if (location.state.title === "마케팅 대외활동") setItem(data.text[2])
+          if (location.state.title === "웹디 과제") setItem(data.text[3])
+          if (location.state.title === "인창 과제") setItem(data.text[4])
+          if (location.state.title === "종세문 과제") setItem(data.text[5])
+      }
+      else {
+          setItem(data.text[0])
+      }
+  }, [location])
 
 
   return (

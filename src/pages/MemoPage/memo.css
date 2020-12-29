@@ -66,9 +66,12 @@
 }
 
 .memo-text {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 48px;
   font-size: 15px;
+  height: 90vh;
+  overflow: scroll;
 }
 
 .date-container {

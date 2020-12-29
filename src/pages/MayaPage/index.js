@@ -21,7 +21,7 @@ import Image0 from '../../data/images/마야 작업화면_full screen.png';
 
 const text = [
     {
-        location: ' /User/limsohee/desktop/수업/3D Modeling/',
+        location: '/User/soheelim/desktop/2020-2/',
         title: 'final (1)',
         url: Image0,
     }

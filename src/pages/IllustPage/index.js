@@ -20,7 +20,7 @@ import Image0 from '../../data/images/일러스트 작업화면.png';
 
 const text = [
     {
-        location: '/User/limsohee/desktop/동아리/',
+        location: '/User/soheelim/documents/대외활동/',
         title: '2019비주얼가이드 (1)',
         url: Image0,
     }

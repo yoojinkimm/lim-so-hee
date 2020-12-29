@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useContext } from 'react';
 import '../../App.css';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
 import './word.css';
 
@@ -18,17 +18,29 @@ import IconGreen from '../../data/icons/btn_green.svg';
 import WordMenu from '../../data/images/word-menu.png';
 import WordFooter from '../../data/images/word-footer.png';
 
+import * as data from '../../data/text/word';
 
-const text = {
-    title: <>자기소개서 초본</>,
-    contents: <>나는 마케팅이 하고싶다. 왜냐하면 마케팅 장인이기 때문이다. 나는 마케팅을 아주 잘한다. 특히 컨텐츠 마케팅의 천재다. 특히 컨텐츠 마케팅의 천재다. 특히 컨텐츠 마케팅의 천재다. 특히 컨텐츠 마케팅의 천재다.</>
-}
 
 
 
 const WordPage = () => {
   const history = useHistory();
+  const location = useLocation();
   const { user } = useContext(UserContext);
+  const [item, setItem] = useState({
+      title: '', contents: '',
+  })
+
+  useEffect(() => {
+      if (location.state !== undefined){
+          if (location.state.title === "자기소개서") setItem(data.text[0])
+          if (location.state.title === "아이디어") setItem(data.text[1])
+          if (location.state.title === "시나리오") setItem(data.text[2])
+      }
+      else {
+          setItem(data.text[0])
+      }
+  }, [location])
 
 
   return (
@@ -43,7 +55,7 @@ const WordPage = () => {
                 <img className="window-btn click" src={IconYellow} onClick={() => history.goBack()} />
                 <img className="window-btn click" src={IconGreen} />
             </div>
-            <div className="word-header-text">{text.title}</div>
+            <div className="word-header-text">{item.title}</div>
         </div>
 
         <div className="word-container">
@@ -53,9 +65,15 @@ const WordPage = () => {
 
             <div className="word-contents">
                 <div className="word-paper">
-                    {text.title} <br /> <br /> <br />
-                    {text.contents}
+                    <br /> <br />
+                    {item.contents}
                 </div>
+                {item.contents_2 !== undefined &&
+                    <div className="word-paper">
+                        <br /> <br />
+                        {item.contents_2}
+                    </div>
+                }
             </div>
 
         </div>

@@ -87,7 +87,7 @@ const Dock = ({now}) => {
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon click" src={IconPhotoshop} />
+                    <img className="dock-icon" src={IconPhotoshop} />
                     <div style={{height: 5}}>
                         {now === 'photoshop' &&
                         <img className="dot" src={IconDot} />
@@ -111,7 +111,7 @@ const Dock = ({now}) => {
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon click" src={IconAE} />
+                    <img className="dock-icon" src={IconAE} />
                     <div style={{height: 5}}>
                         {now === 'ae' &&
                         <img className="dot" src={IconDot} />
@@ -143,7 +143,7 @@ const Dock = ({now}) => {
                     </div>
                 </div>
                 <div className="dock-col">
-                    <img className="dock-icon click" src={IconExcel} />
+                    <img className="dock-icon" src={IconExcel} />
                     <div style={{height: 5}}>
                         {now === 'excel' &&
                         <img className="dot" src={IconDot} />
