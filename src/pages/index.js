@@ -11,6 +11,7 @@ import IllustPage from './IllustPage';
 import MayaPage from './MayaPage';
 import CalendarPage from './CalendarPage';
 import PptPage from './PptPage';
+import PhotoPage from './PhotoPage';
 
 
 
@@ -28,5 +29,6 @@ export {
     IllustPage,
     MayaPage,
     CalendarPage,
-    PptPage
+    PptPage,
+    PhotoPage
 }

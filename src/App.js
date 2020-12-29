@@ -21,6 +21,7 @@ import {
   MayaPage,
   CalendarPage,
   PptPage,
+  PhotoPage,
 } from './pages'
 
 
@@ -47,6 +48,7 @@ function App({history}) {
              <Route exact path='/maya' component={MayaPage} />
              <Route exact path='/calendar' component={CalendarPage} />
              <Route exact path='/ppt' component={PptPage} />
+             <Route exact path='/photo' component={PhotoPage} />
           </Switch>
         </Router>
         </div>

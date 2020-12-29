@@ -40,6 +40,7 @@ const DesktopPage = () => {
             <Row style={{width: '100%'}}>
                 <Col></Col>
                 <Col sm={2} md={2} lg={2}>
+                    <Folder name={'2020-2'} />
                 </Col>
                 <Col sm={2} md={2} lg={2}>
                     <Folder name={'취업준비'} />

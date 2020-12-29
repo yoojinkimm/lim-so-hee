@@ -22,13 +22,16 @@ import IconExcel from '../../data/icons/excel.png';
 
 
 
-
+//  history.push({pathname: '/result', state: { result: finishResult !== undefined ? finishResult : selectedPage, category: selectedCategory, score: finishScore !== undefined ? finishScore : score }})
+//  const location = useLocation();
+//  if (location.state !== undefined){}
 
 
 const FolderPopup = ({folderName, show, setShow}) => {
     const [nowFolder, setNowFolder] = useState([]);
     const history = useHistory()
     const [update, setUpdate] = useState(false);
+    const [num, setNum] = useState(0);
 
 
     const folder_contents = [
@@ -50,6 +53,10 @@ const FolderPopup = ({folderName, show, setShow}) => {
             index: 1,
             folderName : 'Desktop',
             contents: [
+                <div className="folder-icon click" onClick={() => changeNowFolder('2020-2')}>
+                    <img src={FolderIcon} />
+                    <div>2020-2</div>
+                </div>,
                 <div className="folder-icon click" onClick={() => changeNowFolder('취업준비')}>
                     <img src={FolderIcon} />
                     <div>취업준비</div>
@@ -60,15 +67,11 @@ const FolderPopup = ({folderName, show, setShow}) => {
             index: 2,
             folderName : 'Documents',
             contents: [
-                <div className="folder-icon click" onClick={() => changeNowFolder('2020-2')}>
-                    <img src={FolderIcon} />
-                    <div>2020-2</div>
-                </div>,
                 <div className="folder-icon click" onClick={() => changeNowFolder('대외활동')}>
                     <img src={FolderIcon} />
                     <div>대외활동</div>
                 </div>,
-                <div className="folder-icon click" onClick={() => changeNowFolder('대외활동')}>
+                <div className="folder-icon click" onClick={() => changeNowFolder('백업')}>
                     <img src={FolderIcon} />
                     <div>백업</div>
                 </div>,
@@ -138,9 +141,12 @@ const FolderPopup = ({folderName, show, setShow}) => {
         },
     ]
 
-    var max = 300;
-    var min = 100;
-    var num = Math.random() * (max - min) + min ;
+    useEffect(() => {
+        var max = 300;
+        var min = 100;
+        var random = Math.random() * (max - min) + min ;
+        setNum(random);
+    }, [])
 
 
     var z = 3;
@@ -226,15 +232,6 @@ const FolderPopup = ({folderName, show, setShow}) => {
                         {nowFolder[nowFolder.length - 1] === '2020-2' &&
                         <>
                             {folder_contents[4].contents.map((item) => {
-                                return(
-                                    <Col sm={6} md={6} lg={4} xl={3}>{item}</Col>
-                                )
-                            })}
-                        </>
-                        }
-                        {nowFolder[nowFolder.length - 1] === '백업' &&
-                        <>
-                            {folder_contents[3].contents.map((item) => {
                                 return(
                                     <Col sm={6} md={6} lg={4} xl={3}>{item}</Col>
                                 )
