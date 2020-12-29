@@ -65,7 +65,7 @@ const EndingPage = () => {
   const [showIndex, setShowIndex] = useState(0);
 
   const handleNext = () => {
-    if (showIndex === showEnding.length - 1) history.push('/');
+    if (showIndex === showEnding.length - 1) history.push('/start');
     else setShowIndex(showIndex + 1);
   }
 
