@@ -16,7 +16,9 @@ import IconPremiere from '../../data/icons/Premiere.svg';
 import IconAE from '../../data/icons/After Effects.svg';
 import IconMaya from '../../data/icons/maya.png';
 import IconWord from '../../data/icons/word.png';
+import IconPpt from '../../data/icons/ppt_icon.png';
 import IconExcel from '../../data/icons/excel.png';
+import IconPhoto from '../../data/icons/image_icon.png';
 
 import IconDot from '../../data/icons/dot.svg';
 
@@ -144,7 +146,7 @@ const Dock = () => {
                     </div>
                 </div>
                 <div className="dock-col" onClick={() => history.push('/ppt')}>
-                    <img className="dock-icon click" src={IconWord} />
+                    <img className="dock-icon click" src={IconPpt} />
                     <div style={{height: 5}}>
                         {path === '/ppt' &&
                         <img className="dot" src={IconDot} />
@@ -155,6 +157,14 @@ const Dock = () => {
                     <img className="dock-icon" src={IconExcel} />
                     <div style={{height: 5}}>
                         {path === '/excel' &&
+                        <img className="dot" src={IconDot} />
+                        }     
+                    </div>
+                </div>
+                <div className="dock-col" onClick={() => history.push('/photo')}>
+                    <img className="dock-icon" src={IconPhoto} />
+                    <div style={{height: 5}}>
+                        {path === '/photo' &&
                         <img className="dot" src={IconDot} />
                         }     
                     </div>

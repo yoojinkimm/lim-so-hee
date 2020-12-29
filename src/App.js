@@ -23,7 +23,8 @@ import {
   PptPage,
   PhotoPage,
   KakaoPage,
-  KakaoChatPage
+  KakaoChatPage,
+  EndingPage
 } from './pages'
 
 
@@ -63,7 +64,9 @@ function App({history}) {
              <Route exact path='/photo' component={PhotoPage} />
 
              <Route exact path='/kakao' component={KakaoPage} />
-            <Route exact path='/kakao/chat' component={KakaoChatPage} />
+             <Route exact path='/kakao/chat' component={KakaoChatPage} />
+
+             <Route exact path='/ending' component={EndingPage} />
           </Switch>
            <Dock />
         </Router>

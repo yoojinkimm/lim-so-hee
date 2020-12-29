@@ -18,8 +18,9 @@ import IconPremiere from '../../data/icons/Premiere.svg';
 import IconAE from '../../data/icons/After Effects.svg';
 import IconMaya from '../../data/icons/maya.png';
 import IconWord from '../../data/icons/word.png';
-import IconPpt from '../../data/icons/word.png';
+import IconPpt from '../../data/icons/ppt_icon.png';
 import IconExcel from '../../data/icons/excel.png';
+import IconPhoto from '../../data/icons/image_icon.png';
 
 
 import { UserContext } from '../../providers/UserProvider';
@@ -163,11 +164,11 @@ const FolderPopup = ({folderName, show, setShow}) => {
             folderName : '사진',
             contents: [
                 <div className="folder-icon click" onClick={() => history.push('/photo')}>
-                    <img src={IconPhotoshop} />
+                    <img src={IconPhoto} />
                     <div>할머니 집 사진</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push('/photo')}>
-                    <img src={IconPhotoshop} />
+                    <img src={IconPhoto} />
                     <div>초등학교 사진</div>
                 </div>,
             ]

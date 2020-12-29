@@ -11,7 +11,8 @@ import { Dock, Folder, TaxiPopup } from '../../components';
 import Clock from 'react-live-clock';
 import { UserContext } from '../../providers/UserProvider';
 
-
+import InstaIcon from '../../data/icons/Instagram_icon.png';
+import TaxiIcon from '../../data/icons/카카오택시 아이콘.svg';
 
 
 const DesktopPage = () => {
@@ -52,15 +53,15 @@ const DesktopPage = () => {
                 <Col sm={2} md={2} lg={2}>
                 </Col>
                 <Col>
-                    <div onClick={() => setTaxi(true)}
-                    style={{fontSize: 36, color: 'yellow'}}>
-                        카카오 택시
+                    <div className="click icon" onClick={() => setTaxi(true)}>
+                        <img className="icon-img" src={TaxiIcon} />
+                        <div className="icon-txt">장소 입력</div>
                     </div>
                 </Col>
                 <Col>
-                    <div onClick={() => goInstagram()}
-                    style={{fontSize: 36, color: 'pink'}}>
-                        인스타그램
+                    <div className="click icon" onClick={() => goInstagram()}>
+                        <img className="icon-img" src={InstaIcon} />
+                        <div className="icon-txt">내 계정 바로가기</div>
                     </div>
                 </Col>
             </Row>
