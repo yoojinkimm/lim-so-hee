@@ -16,13 +16,26 @@
   margin-top: 26px;
 }
 .folder-menu-top {
-  font-size: 14px;
+  font-size: 1vw;
   color: rgba(100, 100, 100);
   padding: 8px;
 }
 .folder-menu-text {
-  font-size: 16px;
+  font-size: 1vw;
   color: rgba(50, 50, 50);
   padding-top: 4px;
   padding-left: 16px;
+}
+.folder-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+.folder-contents {
+  margin-top: 26px;
+  padding: 12px !important;
 }

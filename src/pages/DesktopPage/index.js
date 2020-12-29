@@ -6,7 +6,7 @@ import { Button, Row, Col } from 'react-bootstrap';
 import './desktop.css';
 
 
-import { Dock, Folder } from '../../components';
+import { Dock, Folder, TaxiPopup } from '../../components';
 
 import Clock from 'react-live-clock';
 import { UserContext } from '../../providers/UserProvider';
@@ -19,11 +19,15 @@ const DesktopPage = () => {
   const [password, setPassword] = useState("")
   const { user } = useContext(UserContext);
 
+  const [showTaxi, setShowTaxi] = useState(false);
+
   useEffect(() => {
       if( user !== null) console.log('현재 이용자: ', user.name)
   }, [])
 
-  
+  const goInstagram = () => {
+      window.open(`https://www.instagram.com/lsh_623/`)
+  }
 
   return (
     <div className="desktop-background">
@@ -36,26 +40,36 @@ const DesktopPage = () => {
             <Row style={{width: '100%'}}>
                 <Col></Col>
                 <Col sm={2} md={2} lg={2}>
-                    <Folder name={'포폴'} />
                 </Col>
                 <Col sm={2} md={2} lg={2}>
-                    <Folder name={'자소서'} />
+                    <Folder name={'취업준비'} />
                 </Col>
             </Row>
              <Row style={{width: '100%'}}>
                 <Col sm={2} md={2} lg={2}>
-                    <Folder name={'사진'} />
                 </Col>
             </Row>
              <Row style={{width: '100%'}}>
                 <Col sm={2} md={2} lg={2}>
-                    <Folder name={'삼성 백업'} />
                 </Col>
-                <Col></Col>
+                <Col>
+                    <div onClick={() => setShowTaxi(true)}
+                    style={{fontSize: 36, color: 'yellow'}}>
+                        카카오 택시
+                    </div>
+                </Col>
+                <Col>
+                    <div onClick={() => goInstagram()}
+                    style={{fontSize: 36, color: 'pink'}}>
+                        인스타그램
+                    </div>
+                </Col>
             </Row>
         </div>
 
         <Dock />
+
+        <TaxiPopup show={showTaxi} setShow={setShowTaxi} />
     </div>
   );
 }

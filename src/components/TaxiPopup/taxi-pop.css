@@ -1,0 +1,12 @@
+.taxi-popup {
+  position: fixed;
+  width: 28vw;
+  height: 60vw;
+  background-color: white;
+  will-change: z-index;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.taxi-title-text {
+  font-size: 14px;
+}
