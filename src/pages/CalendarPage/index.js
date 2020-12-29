@@ -73,7 +73,7 @@ const CalendarPage = ({num}) => {
         </div>
 
         
-        <Dock now='calendar' />
+        {/* <Dock now='calendar' /> */}
     </div>
   );
 }

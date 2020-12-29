@@ -118,7 +118,7 @@ const SapariPage = () => {
 
         <img className="footer image" src={SapariFooter} />
 
-        <Dock now='sapari' />
+        {/* <Dock now='sapari' /> */}
     </div>
   );
 }

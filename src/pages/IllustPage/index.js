@@ -55,7 +55,7 @@ const IllustPage = ({num}) => {
         <div className="illust-container">
             <img className="illust-image" src={item.url} />
         </div>
-        <Dock now='illust' />
+        {/* <Dock now='illust' /> */}
     </div>
   );
 }

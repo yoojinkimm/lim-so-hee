@@ -54,7 +54,7 @@ const PhotoPage = ({title}) => {
         </div>
 
         
-        <Dock now='photo' />
+        {/* <Dock now='photo' /> */}
     </div>
   );
 }

@@ -66,7 +66,7 @@ const DesktopPage = () => {
             </Row>
         </div>
 
-        <Dock />
+        {/* <Dock /> */}
 
         <TaxiPopup show={taxi} setShow={setTaxi} />
     </div>

@@ -29,6 +29,8 @@ import {
 // import { FolderPopup } from './components/index';
 // import { UserContext } from './providers/UserProvider';
 
+import { Dock } from './components/index';
+
 
 function App({history}) {
   //  const { finder, setFinder, 
@@ -57,6 +59,7 @@ function App({history}) {
              <Route exact path='/photo' component={PhotoPage} />
              <Route exact path='/kakao' component={KakaoPage} />
           </Switch>
+           <Dock />
         </Router>
 
         {/* finder &&

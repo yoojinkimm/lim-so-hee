@@ -204,7 +204,7 @@ const GmailPage = () => {
             
         </div>
 
-        <Dock now='sapari' />
+        {/* <Dock now='sapari' /> */}
     </div>
   );
 }

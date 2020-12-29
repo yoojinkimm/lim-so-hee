@@ -55,7 +55,7 @@ const PremierePage = ({num}) => {
         <div className="premiere-container">
             <img className="premiere-image" src={item.url} />
         </div>
-        <Dock now='premiere' />
+        {/* <Dock now='premiere' /> */}
     </div>
   );
 }

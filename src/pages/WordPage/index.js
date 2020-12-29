@@ -79,7 +79,7 @@ const WordPage = () => {
         </div>
 
         <img className="word-footer" style={{width: '100%'}}  src={WordFooter} />
-        <Dock now='word' />
+        {/* <Dock now='word' /> */}
     </div>
   );
 }

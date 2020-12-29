@@ -40,7 +40,7 @@ const KakaoPage = ({num}) => {
 
         <div className="kakao-container">
         </div>
-        <Dock now='kakao' />
+        {/* <Dock now='kakao' /> */}
     </div>
   );
 }

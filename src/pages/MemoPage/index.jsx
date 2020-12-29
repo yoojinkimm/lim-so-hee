@@ -166,7 +166,7 @@ const MemoPage = () => {
             
         </div>
 
-        <Dock now='memo' />
+        {/* <Dock now='memo' /> */}
     </div>
   );
 }

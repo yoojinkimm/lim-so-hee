@@ -77,7 +77,7 @@ const MayaPage = ({num}) => {
         }
 
         
-        <Dock now='maya' />
+        {/* <Dock now='maya' /> */}
     </div>
   );
 }

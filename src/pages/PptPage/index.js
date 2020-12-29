@@ -62,7 +62,7 @@ const PptPage = () => {
         <div className="ppt-container">
             <img className="ppt-image" src={item.url} />
         </div>
-        <Dock now='ppt' />
+        {/* <Dock now='ppt' /> */}
     </div>
   );
 }
