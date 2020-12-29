@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.ccf157ca.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.99b550cd.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.99b550cd.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.6a35fe62.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.a08ae4fe.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.a08ae4fe.chunk.js.map",
     "runtime-main.js": "/lim-so-hee/static/js/runtime-main.74f1e410.js",
     "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.74f1e410.js.map",
     "static/js/2.18882acf.chunk.js": "/lim-so-hee/static/js/2.18882acf.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.620bdfdb.chunk.js": "/lim-so-hee/static/js/3.620bdfdb.chunk.js",
     "static/js/3.620bdfdb.chunk.js.map": "/lim-so-hee/static/js/3.620bdfdb.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.ccf157ca.chunk.css.map": "/lim-so-hee/static/css/main.ccf157ca.chunk.css.map",
+    "static/css/main.6a35fe62.chunk.css.map": "/lim-so-hee/static/css/main.6a35fe62.chunk.css.map",
     "static/js/2.18882acf.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.18882acf.chunk.js.LICENSE.txt",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
     "static/media/Back Button.5e7993fa.svg": "/lim-so-hee/static/media/Back Button.5e7993fa.svg",
@@ -118,7 +118,7 @@
   "entrypoints": [
     "static/js/runtime-main.74f1e410.js",
     "static/js/2.18882acf.chunk.js",
-    "static/css/main.ccf157ca.chunk.css",
-    "static/js/main.99b550cd.chunk.js"
+    "static/css/main.6a35fe62.chunk.css",
+    "static/js/main.a08ae4fe.chunk.js"
   ]
 }
