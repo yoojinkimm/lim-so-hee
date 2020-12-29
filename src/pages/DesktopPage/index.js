@@ -17,9 +17,7 @@ import { UserContext } from '../../providers/UserProvider';
 const DesktopPage = () => {
   const history = useHistory();
   const [password, setPassword] = useState("")
-  const { user } = useContext(UserContext);
-
-  const [showTaxi, setShowTaxi] = useState(false);
+  const { user, f2020, setF2020, job, setJob, taxi, setTaxi } = useContext(UserContext);
 
   useEffect(() => {
       if( user !== null) console.log('현재 이용자: ', user.name)
@@ -40,10 +38,10 @@ const DesktopPage = () => {
             <Row style={{width: '100%'}}>
                 <Col></Col>
                 <Col sm={2} md={2} lg={2}>
-                    <Folder name={'2020-2'} />
+                    <Folder name={'2020-2'} show={f2020} setShow={setF2020} />
                 </Col>
                 <Col sm={2} md={2} lg={2}>
-                    <Folder name={'취업준비'} />
+                    <Folder name={'취업준비'} show={job} setShow={setJob} />
                 </Col>
             </Row>
              <Row style={{width: '100%'}}>
@@ -54,7 +52,7 @@ const DesktopPage = () => {
                 <Col sm={2} md={2} lg={2}>
                 </Col>
                 <Col>
-                    <div onClick={() => setShowTaxi(true)}
+                    <div onClick={() => setTaxi(true)}
                     style={{fontSize: 36, color: 'yellow'}}>
                         카카오 택시
                     </div>
@@ -70,7 +68,7 @@ const DesktopPage = () => {
 
         <Dock />
 
-        <TaxiPopup show={showTaxi} setShow={setShowTaxi} />
+        <TaxiPopup show={taxi} setShow={setTaxi} />
     </div>
   );
 }

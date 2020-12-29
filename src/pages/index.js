@@ -12,6 +12,7 @@ import MayaPage from './MayaPage';
 import CalendarPage from './CalendarPage';
 import PptPage from './PptPage';
 import PhotoPage from './PhotoPage';
+import KakaoPage from './KaKaoPage';
 
 
 
@@ -30,5 +31,6 @@ export {
     MayaPage,
     CalendarPage,
     PptPage,
-    PhotoPage
+    PhotoPage,
+    KakaoPage,
 }

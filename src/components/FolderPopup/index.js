@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import './folder-pop.css';
@@ -22,14 +22,18 @@ import IconPpt from '../../data/icons/word.png';
 import IconExcel from '../../data/icons/excel.png';
 
 
+import { UserContext } from '../../providers/UserProvider';
 
 
 const FolderPopup = ({folderName, show, setShow}) => {
-    const [nowFolder, setNowFolder] = useState([]);
-    const history = useHistory()
-    const [update, setUpdate] = useState(false);
+    const history = useHistory();
     const [num, setNum] = useState(0);
 
+    const [nowFolder, setNowFolder] = useState([]);
+    const [update, setUpdate] = useState(false);
+
+    // const { finder, nowFolder, setNowFolder, update, setUpdate } = useContext(UserContext);
+    const { finder } = useContext(UserContext);
 
     const folder_contents = [
         {   
@@ -182,11 +186,18 @@ const FolderPopup = ({folderName, show, setShow}) => {
 
 
     const changeNowFolder = (name) => {
-        var list = [];
-        list = nowFolder;
-        list.push(name);
-        setNowFolder(list);
-        setUpdate(!update);
+        // if(name === 'documents' && finder){setUpdate(!update);}
+        // else if(name === 'documents' && f2020){}
+        // else if(name === 'documents' && job){}
+        // else if(name === 'documents' && taxi){}
+        // else{
+            var list = [];
+            list = nowFolder;
+            list.push(name);
+            setNowFolder(list);
+            setUpdate(!update);
+            console.log(list)
+        // }
     }
 
 

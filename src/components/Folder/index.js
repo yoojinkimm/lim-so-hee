@@ -7,16 +7,15 @@ import FolderIcon from '../../data/icons/folder.png';
 import FolderPopup from '../FolderPopup';
 
 
-const Folder = ({name}) => {
-    const [showPopup, setShowPopup] = useState(false)
+const Folder = ({name, show, setShow}) => {
 
     return(
         <>
-        <div className='desktop-folder click' onClick={() => {setShowPopup(true)}}>
+        <div className='desktop-folder click' onClick={() => {setShow(true)}}>
             <img className='folder-img' src={FolderIcon} />
             <div className='folder-txt'>{name}</div>
         </div>
-        <FolderPopup show={showPopup} setShow={setShowPopup} folderName={name} />
+        <FolderPopup show={show} setShow={setShow} folderName={name} />
         </>
     )
 }

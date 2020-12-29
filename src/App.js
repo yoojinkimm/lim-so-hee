@@ -4,7 +4,7 @@ import {
   Switch,
   BrowserRouter as Router,
 } from "react-router-dom";
-import React from 'react';
+import React, {useContext} from 'react';
 import UserProvider from './providers/UserProvider';
 import './App.css';
 import {
@@ -22,12 +22,18 @@ import {
   CalendarPage,
   PptPage,
   PhotoPage,
+  KakaoPage
 } from './pages'
 
 
+// import { FolderPopup } from './components/index';
+// import { UserContext } from './providers/UserProvider';
 
 
 function App({history}) {
+  //  const { finder, setFinder, 
+  // f2020, job, taxi } = useContext(UserContext);
+
   return (
     <UserProvider 
     render={
@@ -49,8 +55,13 @@ function App({history}) {
              <Route exact path='/calendar' component={CalendarPage} />
              <Route exact path='/ppt' component={PptPage} />
              <Route exact path='/photo' component={PhotoPage} />
+             <Route exact path='/kakao' component={KakaoPage} />
           </Switch>
         </Router>
+
+        {/* finder &&
+        <FolderPopup show={finder} setShow={setFinder} 
+        folderName={'documents'} /> */}
         </div>
       </div>
     } />

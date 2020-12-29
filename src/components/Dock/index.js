@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import './dock.css';
@@ -21,16 +21,18 @@ import IconExcel from '../../data/icons/excel.png';
 import IconDot from '../../data/icons/dot.svg';
 
 import FolderPopup from '../FolderPopup';
+import { UserContext } from '../../providers/UserProvider';
 
 const Dock = ({now}) => {
     const history = useHistory();
-    const [showPopup, setShowPopup] = useState(false)
+
+    const { finder, setFinder } = useContext(UserContext);
 
     return(
         <>
         <div className="desktop-bottom-floating">
             <div className="desktop-dock">
-                <div className="dock-col" onClick={() => setShowPopup(true)}>
+                <div className="dock-col" onClick={() => setFinder(true)}>
                     <img className="dock-icon click" src={IconFinder} />
                     <div style={{height: 5}}>
                         {now === 'finder' &&
@@ -54,7 +56,7 @@ const Dock = ({now}) => {
                         }
                     </div>
                 </div>
-                <div className="dock-col">
+                <div className="dock-col" onClick={() => history.push('/kakao')}>
                     <img className="dock-icon click" src={IconKakao} />
                     <div style={{height: 5}}>
                         {now === 'kakao' &&
@@ -151,9 +153,10 @@ const Dock = ({now}) => {
                     </div>
                 </div>
             </div>
+
+            <FolderPopup show={finder} setShow={setFinder} folderName={'documents'} />
         </div>
 
-        <FolderPopup show={showPopup} setShow={setShowPopup} folderName={'documents'} />
         </>
     )
 }
