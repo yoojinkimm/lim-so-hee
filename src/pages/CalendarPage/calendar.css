@@ -42,7 +42,6 @@
 .carousel-inner {
   height: 100% !important;
   box-sizing: border-box;
-  padding-top: 20%;
 }
 
 .carousel-item {
@@ -53,4 +52,9 @@
 
 .carousel-indicators {
   display: none;
+}
+
+.calendar-image {
+  width: 100%;
+  height: 100%;
 }

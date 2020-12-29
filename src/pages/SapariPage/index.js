@@ -63,7 +63,7 @@ const SapariPage = () => {
     list.splice(index, 1);
     setHistoryList(list);
     setUpdate(!update);
-    console.log(list);
+    // console.log(list);
   }
   
 

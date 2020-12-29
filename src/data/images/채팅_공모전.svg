@@ -1,0 +1,426 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="466" height="2625" viewBox="0 0 466 2625">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 306 357">
+      <image width="306" height="357" xlink:href="data:image/jpeg;base64,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"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <rect id="사각형_190" data-name="사각형 190" width="42" height="43" rx="16" transform="translate(2539 427)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_191" data-name="사각형 191" width="42" height="43" rx="16" transform="translate(2539 528)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_193" data-name="사각형 193" width="42" height="43" rx="16" transform="translate(2539 743)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="사각형_195" data-name="사각형 195" width="42" height="43" rx="16" transform="translate(2539 907)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="사각형_196" data-name="사각형 196" width="42" height="43" rx="16" transform="translate(2539 1044)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="사각형_197" data-name="사각형 197" width="42" height="43" rx="16" transform="translate(2539 1277)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="사각형_199" data-name="사각형 199" width="42" height="43" rx="16" transform="translate(2539 1610)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect id="사각형_200" data-name="사각형 200" width="42" height="43" rx="16" transform="translate(2539 1693)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <rect id="사각형_201" data-name="사각형 201" width="42" height="43" rx="16" transform="translate(2539 1835)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-10">
+      <rect id="사각형_202" data-name="사각형 202" width="42" height="43" rx="16" transform="translate(2539 1918)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <rect id="사각형_204" data-name="사각형 204" width="42" height="43" rx="16" transform="translate(2539 2163)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <rect id="사각형_205" data-name="사각형 205" width="42" height="43" rx="16" transform="translate(2539 2246)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <rect id="사각형_206" data-name="사각형 206" width="42" height="43" rx="16" transform="translate(2539 2397)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-14">
+      <rect id="사각형_209" data-name="사각형 209" width="42" height="43" rx="16" transform="translate(2539 2609)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_184" data-name="그룹 184" transform="translate(-2518 -157)">
+    <rect id="사각형_185" data-name="사각형 185" width="466" height="2625" transform="translate(2518 157)" fill="#bdd1dc"/>
+    <g id="그룹_142" data-name="그룹 142" transform="translate(1779 -151)">
+      <g id="그룹_12" data-name="그룹 12">
+        <line id="선_11" data-name="선 11" x2="442" y2="3" transform="translate(751.5 331.5)" fill="none" stroke="#b1c4ce" stroke-width="1.5"/>
+        <rect id="사각형_39" data-name="사각형 39" width="135" height="26" transform="translate(905 320)" fill="#bdd1dc"/>
+      </g>
+      <text id="_2020년_11월_3일" data-name="2020년 11월 3일" transform="translate(922 338)" fill="#5e6368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">2020년 11월 3일</tspan></text>
+    </g>
+    <rect id="사각형_188" data-name="사각형 188" width="42" height="43" rx="16" transform="translate(2539 224)" fill="#fff"/>
+    <g id="그룹_143" data-name="그룹 143" transform="translate(1690 7)">
+      <path id="다각형_9" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43" data-name="사각형 43" width="211" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="전철_놓쳐서_10분_늦습니더_" data-name="전철 놓쳐서 10분 늦습니더ㅜㅜ" transform="translate(2606 277)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">전철 놓쳐서 10분 늦습니더ㅜㅜ</tspan></text>
+    <text id="박세아" transform="translate(2592 241)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <rect id="_1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" data-name="1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" width="42" height="43" rx="16" transform="translate(2539 224)" fill="url(#pattern)"/>
+    <g id="그룹_144" data-name="그룹 144" transform="translate(1690 7)">
+      <path id="다각형_9-2" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-2" data-name="사각형 43" width="211" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="전철_놓쳐서_10분_늦습니더_2" data-name="전철 놓쳐서 10분 늦습니더ㅜㅜ" transform="translate(2606 277)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">전철 놓쳐서 10분 늦습니더ㅜㅜ</tspan></text>
+    <text id="박세아-2" data-name="박세아" transform="translate(2592 241)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <g id="그룹_145" data-name="그룹 145" transform="translate(2941.988 302.821)">
+      <rect id="사각형_18" data-name="사각형 18" width="137.72" height="37" rx="4" transform="translate(-118.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="저도..._죄송합니다.." data-name="저도... 죄송합니다.." transform="translate(2949 331)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-113.07" y="0">저도... 죄송합니다..</tspan></text>
+    <g id="그룹_146" data-name="그룹 146" transform="translate(1779 52)">
+      <g id="그룹_12-2" data-name="그룹 12">
+        <line id="선_11-2" data-name="선 11" x2="442" y2="3" transform="translate(751.5 331.5)" fill="none" stroke="#b1c4ce" stroke-width="1.5"/>
+        <rect id="사각형_39-2" data-name="사각형 39" width="135" height="26" transform="translate(905 320)" fill="#bdd1dc"/>
+      </g>
+      <text id="_2020년_11월_17일" data-name="2020년 11월 17일" transform="translate(920 338)" fill="#5e6368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">2020년 11월 17일</tspan></text>
+    </g>
+    <g id="마스크_그룹_35" data-name="마스크 그룹 35" clip-path="url(#clip-path)">
+      <g id="레이어_2" data-name="레이어 2" transform="translate(2539 428.032)">
+        <g id="레이어_1" data-name="레이어 1">
+          <rect id="사각형_246" data-name="사각형 246" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_55" data-name="타원 55" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_52" data-name="패스 52" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_147" data-name="그룹 147" transform="translate(1690 210)">
+      <path id="다각형_9-3" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-3" data-name="사각형 43" width="291" height="55" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="생각해봤는데_우리_이번주부터는_IMC_작업_들_어가야_할듯_" data-name="생각해봤는데 우리 이번주부터는 IMC 작업 들
+어가야 할듯?" transform="translate(2606 480)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">생각해봤는데 우리 이번주부터는 IMC 작업 들</tspan><tspan x="0" y="19">어가야 할듯?</tspan></text>
+    <text id="지윤하" transform="translate(2592 444)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <g id="마스크_그룹_36" data-name="마스크 그룹 36" clip-path="url(#clip-path-2)">
+      <g id="레이어_2-2" data-name="레이어 2" transform="translate(2539 529.043)">
+        <g id="레이어_1-2" data-name="레이어 1">
+          <rect id="사각형_247" data-name="사각형 247" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_56" data-name="타원 56" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_53" data-name="패스 53" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_148" data-name="그룹 148" transform="translate(1690 311)">
+      <path id="다각형_9-4" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-4" data-name="사각형 43" width="214" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="_내일_줌으로_한번_더_만나자" data-name="ㅇㅇ 내일 줌으로 한번 더 만나자" transform="translate(2606 581)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">ㅇㅇ 내일 줌으로 한번 더 만나자</tspan></text>
+    <text id="곽성민" transform="translate(2592 545)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <rect id="_1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file-2" data-name="1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" width="42" height="43" rx="16" transform="translate(2539 610)" fill="url(#pattern)"/>
+    <g id="그룹_149" data-name="그룹 149" transform="translate(1690 393)">
+      <path id="다각형_9-5" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-5" data-name="사각형 43" width="117" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="내일_몇시_" data-name="내일 몇시 ㄱㄴ?" transform="translate(2606 663)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">내일 몇시 ㄱㄴ?</tspan></text>
+    <text id="박세아-3" data-name="박세아" transform="translate(2592 627)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <g id="그룹_150" data-name="그룹 150" transform="translate(2941.988 688.821)">
+      <rect id="사각형_18-2" data-name="사각형 18" width="128.72" height="37" rx="4" transform="translate(-109.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-2" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="나는_저녁은_상관X" data-name="나는 저녁은 상관X" transform="translate(2949 717)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-107.625" y="0">나는 저녁은 상관X</tspan></text>
+    <g id="마스크_그룹_37" data-name="마스크 그룹 37" clip-path="url(#clip-path-3)">
+      <g id="레이어_2-3" data-name="레이어 2" transform="translate(2539 744.043)">
+        <g id="레이어_1-3" data-name="레이어 1">
+          <rect id="사각형_248" data-name="사각형 248" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_57" data-name="타원 57" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_54" data-name="패스 54" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_151" data-name="그룹 151" transform="translate(1690 526)">
+      <path id="다각형_9-6" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-6" data-name="사각형 43" width="133" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="나는_8시_이후_" data-name="나는 8시 이후 ㄱㄴ" transform="translate(2606 796)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">나는 8시 이후 ㄱㄴ</tspan></text>
+    <text id="곽성민-2" data-name="곽성민" transform="translate(2592 760)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <rect id="_1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file-3" data-name="1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" width="42" height="43" rx="16" transform="translate(2539 825)" fill="url(#pattern)"/>
+    <g id="그룹_152" data-name="그룹 152" transform="translate(1690 608)">
+      <path id="다각형_9-7" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-7" data-name="사각형 43" width="52" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="_" data-name="ㄴㄷ" transform="translate(2606 878)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">ㄴㄷ</tspan></text>
+    <text id="박세아-4" data-name="박세아" transform="translate(2592 842)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <g id="마스크_그룹_38" data-name="마스크 그룹 38" clip-path="url(#clip-path-4)">
+      <g id="레이어_2-4" data-name="레이어 2" transform="translate(2539 908.032)">
+        <g id="레이어_1-4" data-name="레이어 1">
+          <rect id="사각형_249" data-name="사각형 249" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_58" data-name="타원 58" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_55" data-name="패스 55" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_153" data-name="그룹 153" transform="translate(1690 690)">
+      <path id="다각형_9-8" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-8" data-name="사각형 43" width="177" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="그럼_8시_만나는_걸루_땅땅" data-name="그럼 8시 만나는 걸루 땅땅" transform="translate(2606 960)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">그럼 8시 만나는 걸루 땅땅</tspan></text>
+    <text id="지윤하-2" data-name="지윤하" transform="translate(2592 924)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <g id="그룹_154" data-name="그룹 154" transform="translate(1779 674)">
+      <g id="그룹_12-3" data-name="그룹 12">
+        <line id="선_11-3" data-name="선 11" x2="442" y2="3" transform="translate(751.5 331.5)" fill="none" stroke="#b1c4ce" stroke-width="1.5"/>
+        <rect id="사각형_39-3" data-name="사각형 39" width="135" height="26" transform="translate(905 320)" fill="#bdd1dc"/>
+      </g>
+      <text id="_2020년_11월_18일" data-name="2020년 11월 18일" transform="translate(919 338)" fill="#5e6368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">2020년 11월 18일</tspan></text>
+    </g>
+    <g id="마스크_그룹_39" data-name="마스크 그룹 39" clip-path="url(#clip-path-5)">
+      <g id="레이어_2-5" data-name="레이어 2" transform="translate(2539 1045.032)">
+        <g id="레이어_1-5" data-name="레이어 1">
+          <rect id="사각형_250" data-name="사각형 250" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_59" data-name="타원 59" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_56" data-name="패스 56" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_155" data-name="그룹 155" transform="translate(1690 827)">
+      <path id="다각형_9-9" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-9" data-name="사각형 43" width="283" height="55" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="https:_zoom.us_j_94274469758_pwd_O_TNZdVlvYm1LdUU3OWFWZDJxaUxlUT09" data-name="https://zoom.us/j/94274469758?pwd=O
+TNZdVlvYm1LdUU3OWFWZDJxaUxlUT09" transform="translate(2606 1097)" fill="#0f62ff" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500" text-decoration="underline"><tspan x="0" y="0">https://zoom.us/j/94274469758?pwd=O</tspan><tspan x="0" y="19">TNZdVlvYm1LdUU3OWFWZDJxaUxlUT09</tspan></text>
+    <text id="지윤하-3" data-name="지윤하" transform="translate(2592 1061)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <g id="그룹_156" data-name="그룹 156" transform="translate(1779 830)">
+      <g id="그룹_12-4" data-name="그룹 12">
+        <line id="선_11-4" data-name="선 11" x2="442" y2="3" transform="translate(751.5 331.5)" fill="none" stroke="#b1c4ce" stroke-width="1.5"/>
+        <rect id="사각형_39-4" data-name="사각형 39" width="135" height="26" transform="translate(905 320)" fill="#bdd1dc"/>
+      </g>
+      <text id="_2020년_11월_24일" data-name="2020년 11월 24일" transform="translate(919 338)" fill="#5e6368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">2020년 11월 24일</tspan></text>
+    </g>
+    <g id="마스크_그룹_40" data-name="마스크 그룹 40" clip-path="url(#clip-path-6)">
+      <g id="레이어_2-6" data-name="레이어 2" transform="translate(2539 1278.043)">
+        <g id="레이어_1-6" data-name="레이어 1">
+          <rect id="사각형_251" data-name="사각형 251" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_60" data-name="타원 60" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_57" data-name="패스 57" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_157" data-name="그룹 157" transform="translate(1690 1060)">
+      <path id="다각형_9-10" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-10" data-name="사각형 43" width="148" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="드라이브에_올려놓음_" data-name="드라이브에 올려놓음!" transform="translate(2606 1330)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">드라이브에 올려놓음!</tspan></text>
+    <text id="곽성민-3" data-name="곽성민" transform="translate(2592 1294)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <g id="그룹_158" data-name="그룹 158" transform="translate(2941.988 1204.821)">
+      <rect id="사각형_18-3" data-name="사각형 18" width="244.72" height="37" rx="4" transform="translate(-225.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-3" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="아까_같이_봤던_인스타_이미지_어딨지_" data-name="아까 같이 봤던 인스타 이미지 어딨지?" transform="translate(2949 1233)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-221.28" y="0">아까 같이 봤던 인스타 이미지 어딨지?</tspan></text>
+    <g id="그룹_159" data-name="그룹 159" transform="translate(2941.988 1355.821)">
+      <rect id="사각형_18-4" data-name="사각형 18" width="117.72" height="37" rx="4" transform="translate(-98.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-4" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="찾았다_" data-name="찾았다 ㅇㅋㅇㅋ" transform="translate(2949 1384)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-94.77" y="0">찾았다 ㅇㅋㅇㅋ</tspan></text>
+    <g id="그룹_160" data-name="그룹 160" transform="translate(1779 1098)">
+      <g id="그룹_12-5" data-name="그룹 12">
+        <line id="선_11-5" data-name="선 11" x2="442" y2="3" transform="translate(751.5 331.5)" fill="none" stroke="#b1c4ce" stroke-width="1.5"/>
+        <rect id="사각형_39-5" data-name="사각형 39" width="135" height="26" transform="translate(905 320)" fill="#bdd1dc"/>
+      </g>
+      <text id="_2020년_11월_27일" data-name="2020년 11월 27일" transform="translate(919 338)" fill="#5e6368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">2020년 11월 27일</tspan></text>
+    </g>
+    <rect id="_1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file-4" data-name="1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" width="42" height="43" rx="16" transform="translate(2539 1473)" fill="url(#pattern)"/>
+    <g id="그룹_161" data-name="그룹 161" transform="translate(1690 1256)">
+      <path id="다각형_9-11" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-11" data-name="사각형 43" width="246" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="고생했다_다들_진짜_집가서_푹쉬어" data-name="고생했다 다들 진짜ㅜㅜ 집가서 푹쉬어" transform="translate(2606 1526)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">고생했다 다들 진짜ㅜㅜ 집가서 푹쉬어</tspan></text>
+    <text id="박세아-5" data-name="박세아" transform="translate(2592 1490)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <g id="그룹_162" data-name="그룹 162" transform="translate(2941.988 1555.821)">
+      <rect id="사각형_18-5" data-name="사각형 18" width="127.72" height="37" rx="4" transform="translate(-108.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-5" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="고생했으_" data-name="고생했으ㅜㅜㅜㅜ" transform="translate(2949 1584)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-103.8" y="0">고생했으ㅜㅜㅜㅜ</tspan></text>
+    <g id="마스크_그룹_41" data-name="마스크 그룹 41" clip-path="url(#clip-path-7)">
+      <g id="레이어_2-7" data-name="레이어 2" transform="translate(2539 1611.043)">
+        <g id="레이어_1-7" data-name="레이어 1">
+          <rect id="사각형_252" data-name="사각형 252" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_61" data-name="타원 61" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_58" data-name="패스 58" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_163" data-name="그룹 163" transform="translate(1690 1393)">
+      <path id="다각형_9-12" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-12" data-name="사각형 43" width="139" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="이제_다리_뻗고_잔다" data-name="이제 다리 뻗고 잔다" transform="translate(2606 1663)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">이제 다리 뻗고 잔다</tspan></text>
+    <text id="곽성민-4" data-name="곽성민" transform="translate(2592 1627)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <g id="마스크_그룹_42" data-name="마스크 그룹 42" clip-path="url(#clip-path-8)">
+      <g id="레이어_2-8" data-name="레이어 2" transform="translate(2539 1694.032)">
+        <g id="레이어_1-8" data-name="레이어 1">
+          <rect id="사각형_253" data-name="사각형 253" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_62" data-name="타원 62" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_59" data-name="패스 59" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_164" data-name="그룹 164" transform="translate(1690 1476)">
+      <path id="다각형_9-13" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-13" data-name="사각형 43" width="262" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="_고생했다_얘드라_" data-name="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ고생했다 얘드라ㅜ" transform="translate(2606 1746)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ고생했다 얘드라ㅜ</tspan></text>
+    <text id="지윤하-4" data-name="지윤하" transform="translate(2592 1710)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <g id="그룹_165" data-name="그룹 165" transform="translate(1779 1460)">
+      <g id="그룹_12-6" data-name="그룹 12">
+        <line id="선_11-6" data-name="선 11" x2="442" y2="3" transform="translate(751.5 331.5)" fill="none" stroke="#b1c4ce" stroke-width="1.5"/>
+        <rect id="사각형_39-6" data-name="사각형 39" width="135" height="26" transform="translate(905 320)" fill="#bdd1dc"/>
+      </g>
+      <text id="_2020년_12월_24일" data-name="2020년 12월 24일" transform="translate(919 338)" fill="#5e6368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">2020년 12월 24일</tspan></text>
+    </g>
+    <g id="마스크_그룹_43" data-name="마스크 그룹 43" clip-path="url(#clip-path-9)">
+      <g id="레이어_2-9" data-name="레이어 2" transform="translate(2539 1836.043)">
+        <g id="레이어_1-9" data-name="레이어 1">
+          <rect id="사각형_254" data-name="사각형 254" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_63" data-name="타원 63" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_60" data-name="패스 60" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_166" data-name="그룹 166" transform="translate(1690 1618)">
+      <path id="다각형_9-14" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-14" data-name="사각형 43" width="82" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="발표_떴음" data-name="발표 떴음" transform="translate(2606 1888)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">발표 떴음</tspan></text>
+    <text id="곽성민-5" data-name="곽성민" transform="translate(2592 1852)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <g id="마스크_그룹_44" data-name="마스크 그룹 44" clip-path="url(#clip-path-10)">
+      <g id="레이어_2-10" data-name="레이어 2" transform="translate(2539 1919.032)">
+        <g id="레이어_1-10" data-name="레이어 1">
+          <rect id="사각형_255" data-name="사각형 255" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_64" data-name="타원 64" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_61" data-name="패스 61" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_167" data-name="그룹 167" transform="translate(1690 1701)">
+      <path id="다각형_9-15" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-15" data-name="사각형 43" width="153" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="쉬익..._수상작_당장_봐" data-name="쉬익... 수상작 당장 봐" transform="translate(2606 1971)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">쉬익... 수상작 당장 봐</tspan></text>
+    <text id="지윤하-5" data-name="지윤하" transform="translate(2592 1935)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <rect id="_1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file-5" data-name="1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" width="42" height="43" rx="16" transform="translate(2539 2001)" fill="url(#pattern)"/>
+    <g id="그룹_168" data-name="그룹 168" transform="translate(1690 1784)">
+      <path id="다각형_9-16" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-16" data-name="사각형 43" width="148" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="얼마나_잘했길래_" data-name="얼마나 잘했길래 ㅡㅡ" transform="translate(2606 2054)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">얼마나 잘했길래 ㅡㅡ</tspan></text>
+    <text id="박세아-6" data-name="박세아" transform="translate(2592 2018)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <g id="그룹_169" data-name="그룹 169" transform="translate(2941.988 2084.821)">
+      <rect id="사각형_18-6" data-name="사각형 18" width="332.72" height="56" rx="4" transform="translate(-313.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-6" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="_아_한달동안_고생했는데_아쉽네" data-name="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아 한달동안 고생했는데ㅜ 
+아쉽네" transform="translate(2639 2113)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아 한달동안 고생했는데ㅜ </tspan><tspan x="0" y="19">아쉽네</tspan></text>
+    <g id="마스크_그룹_45" data-name="마스크 그룹 45" clip-path="url(#clip-path-11)">
+      <g id="레이어_2-11" data-name="레이어 2" transform="translate(2539 2164.032)">
+        <g id="레이어_1-11" data-name="레이어 1">
+          <rect id="사각형_256" data-name="사각형 256" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_65" data-name="타원 65" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_62" data-name="패스 62" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_170" data-name="그룹 170" transform="translate(1690 1946)">
+      <path id="다각형_9-17" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-17" data-name="사각형 43" width="148" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="다음에야말로_조진다" data-name="다음에야말로 조진다" transform="translate(2606 2216)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">다음에야말로 조진다</tspan></text>
+    <text id="지윤하-6" data-name="지윤하" transform="translate(2592 2180)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <g id="마스크_그룹_46" data-name="마스크 그룹 46" clip-path="url(#clip-path-12)">
+      <g id="레이어_2-12" data-name="레이어 2" transform="translate(2539 2247.043)">
+        <g id="레이어_1-12" data-name="레이어 1">
+          <rect id="사각형_257" data-name="사각형 257" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_66" data-name="타원 66" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_63" data-name="패스 63" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_171" data-name="그룹 171" transform="translate(1690 2029)">
+      <path id="다각형_9-18" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-18" data-name="사각형 43" width="163" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="그래도_너무_고생했다_" data-name="그래도 너무 고생했다ㅜ" transform="translate(2606 2299)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">그래도 너무 고생했다ㅜ</tspan></text>
+    <text id="곽성민-6" data-name="곽성민" transform="translate(2592 2263)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <g id="그룹_172" data-name="그룹 172" transform="translate(2941.988 2329.821)">
+      <rect id="사각형_18-7" data-name="사각형 18" width="69.72" height="39" rx="4" transform="translate(-50.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-7" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="그니까.." transform="translate(2949 2358)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-46.245" y="0">그니까..</tspan></text>
+    <g id="마스크_그룹_48" data-name="마스크 그룹 48" clip-path="url(#clip-path-13)">
+      <g id="레이어_2-13" data-name="레이어 2" transform="translate(2539 2398.032)">
+        <g id="레이어_1-13" data-name="레이어 1">
+          <rect id="사각형_259" data-name="사각형 259" width="40.635" height="39.571" rx="15.119" transform="translate(0.682 0.682)" fill="#7ec0d5" stroke="#72adc0" stroke-miterlimit="10" stroke-width="1.365"/>
+          <circle id="타원_68" data-name="타원 68" cx="4.885" cy="4.885" r="4.885" transform="translate(16.674 11.216)" fill="#b5dbe7"/>
+          <path id="패스_65" data-name="패스 65" d="M30.347,29.474a6.9,6.9,0,0,0-1.283-3.93l-.737-.982a5.049,5.049,0,0,0-4.012-2.156H18.421a5.049,5.049,0,0,0-4.012,2.156l-.764.982a6.9,6.9,0,0,0-1.283,3.93Z" fill="#b5dbe7"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_173" data-name="그룹 173" transform="translate(1690 2180)">
+      <path id="다각형_9-19" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-19" data-name="사각형 43" width="184" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="메리_크리스마스_이브다.._" data-name="메리 크리스마스 이브다..^^" transform="translate(2606 2450)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">메리 크리스마스 이브다..^^</tspan></text>
+    <text id="지윤하-7" data-name="지윤하" transform="translate(2592 2414)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">지윤하</tspan></text>
+    <rect id="_1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file-6" data-name="1AC52F61-7798-4348-B523-CACC29E67162-3562-0000030B13F10B7D_file" width="42" height="43" rx="16" transform="translate(2539 2480)" fill="url(#pattern)"/>
+    <g id="그룹_174" data-name="그룹 174" transform="translate(1690 2263)">
+      <path id="다각형_9-20" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-20" data-name="사각형 43" width="206" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="_2" data-name="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ" transform="translate(2606 2533)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</tspan></text>
+    <text id="박세아-7" data-name="박세아" transform="translate(2592 2497)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">박세아</tspan></text>
+    <rect id="사각형_208" data-name="사각형 208" width="242" height="37" rx="4" transform="translate(2592 2555)" fill="#fff"/>
+    <text id="메리크리스마스_이브.._앤_공모전_탈락" data-name="메리크리스마스 이브.. 앤 공모전 탈락" transform="translate(2605 2578)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">메리크리스마스 이브.. 앤 공모전 탈락</tspan></text>
+    <g id="마스크_그룹_47" data-name="마스크 그룹 47" clip-path="url(#clip-path-14)">
+      <g id="레이어_2-14" data-name="레이어 2" transform="translate(2539 2610.043)">
+        <g id="레이어_1-14" data-name="레이어 1">
+          <rect id="사각형_258" data-name="사각형 258" width="41.338" height="40.252" rx="15.974" transform="translate(0.331 0.331)" fill="#90a5e3" stroke="#8390ba" stroke-miterlimit="10" stroke-width="0.662"/>
+          <circle id="타원_67" data-name="타원 67" cx="4.954" cy="4.954" r="4.954" transform="translate(16.623 11.046)" fill="#c0ccef"/>
+          <path id="패스_64" data-name="패스 64" d="M30.464,29.616a6.914,6.914,0,0,0-1.325-3.974L28.4,24.636a5.086,5.086,0,0,0-4.079-2.185H18.384a5.113,5.113,0,0,0-4.093,2.185l-.742,1.007a6.9,6.9,0,0,0-1.325,3.974Z" fill="#c0ccef"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_175" data-name="그룹 175" transform="translate(1690 2392)">
+      <path id="다각형_9-21" data-name="다각형 9" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="translate(890.708 265.993) rotate(-67)" fill="#fff"/>
+      <rect id="사각형_43-21" data-name="사각형 43" width="206" height="37" rx="4" transform="translate(903 247)" fill="#fff"/>
+    </g>
+    <text id="_3" data-name="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ" transform="translate(2606 2662)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</tspan></text>
+    <text id="곽성민-7" data-name="곽성민" transform="translate(2592 2626)" fill="#586368" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">곽성민</tspan></text>
+    <g id="그룹_176" data-name="그룹 176" transform="translate(2941.988 2686.821)">
+      <rect id="사각형_18-8" data-name="사각형 18" width="217.72" height="39" rx="4" transform="translate(-198.988 3.523)" fill="#ffe400"/>
+      <path id="다각형_3-8" data-name="다각형 3" d="M10.614,1.7a1,1,0,0,1,1.772,0l9.849,18.841A1,1,0,0,1,21.349,22H1.651a1,1,0,0,1-.886-1.463Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 22.025, 0)" fill="#ffe400"/>
+    </g>
+    <text id="_4" data-name="ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ" transform="translate(2949 2715)" font-size="15" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="-194.625" y="0">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</tspan></text>
+    <text id="오후_1:12" data-name="오후 1:12" transform="translate(2810 287)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 1:12</tspan></text>
+    <text id="오후_1:21" data-name="오후 1:21" transform="translate(2768 339)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 1:21</tspan></text>
+    <text id="오후_10:52" data-name="오후 10:52" transform="translate(2890 508)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 10:52</tspan></text>
+    <text id="오후_11:13" data-name="오후 11:13" transform="translate(2813 591)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 11:13</tspan></text>
+    <text id="오후_11:18" data-name="오후 11:18" transform="translate(2716 673)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 11:18</tspan></text>
+    <text id="오후_11:20" data-name="오후 11:20" transform="translate(2774 725)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 11:20</tspan></text>
+    <text id="오후_11:20-2" data-name="오후 11:20" transform="translate(2732 806)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 11:20</tspan></text>
+    <text id="오후_11:21" data-name="오후 11:21" transform="translate(2651 888)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 11:21</tspan></text>
+    <text id="오후_11:21-2" data-name="오후 11:21" transform="translate(2776 970)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 11:21</tspan></text>
+    <text id="오후_7:59" data-name="오후 7:59" transform="translate(2882 1125)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 7:59</tspan></text>
+    <text id="오후_10:20" data-name="오후 10:20" transform="translate(2652 1241)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 10:20</tspan></text>
+    <text id="오후_10:24" data-name="오후 10:24" transform="translate(2747 1340)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 10:24</tspan></text>
+    <text id="오후_10:26" data-name="오후 10:26" transform="translate(2780 1392)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 10:26</tspan></text>
+    <text id="오후_6:38" data-name="오후 6:38" transform="translate(2845 1536)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 6:38</tspan></text>
+    <text id="오후_6:41" data-name="오후 6:41" transform="translate(2776 1592)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 6:41</tspan></text>
+    <text id="오후_6:42" data-name="오후 6:42" transform="translate(2738 1673)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 6:42</tspan></text>
+    <text id="오후_6:42-2" data-name="오후 6:42" transform="translate(2861 1756)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오후 6:42</tspan></text>
+    <text id="오전_10:03" data-name="오전 10:03" transform="translate(2681 1898)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:03</tspan></text>
+    <text id="오전_10:04" data-name="오전 10:04" transform="translate(2752 1981)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:04</tspan></text>
+    <text id="오전_10:04-2" data-name="오전 10:04" transform="translate(2747 2064)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:04</tspan></text>
+    <text id="오전_10:05" data-name="오전 10:05" transform="translate(2564 2140)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:05</tspan></text>
+    <text id="오전_10:05-2" data-name="오전 10:05" transform="translate(2747 2226)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:05</tspan></text>
+    <text id="오전_10:05-3" data-name="오전 10:05" transform="translate(2762 2309)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:05</tspan></text>
+    <text id="오전_10:05-4" data-name="오전 10:05" transform="translate(2828 2368)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:05</tspan></text>
+    <text id="오전_10:21" data-name="오전 10:21" transform="translate(2783 2460)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:21</tspan></text>
+    <text id="오전_10:26" data-name="오전 10:26" transform="translate(2840 2588)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:26</tspan></text>
+    <text id="오전_10:27" data-name="오전 10:27" transform="translate(2805 2672)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:27</tspan></text>
+    <text id="오전_10:28" data-name="오전 10:28" transform="translate(2681 2725)" fill="#586368" font-size="13" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-weight="500"><tspan x="0" y="0">오전 10:28</tspan></text>
+  </g>
+</svg>

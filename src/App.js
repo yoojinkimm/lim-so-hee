@@ -22,7 +22,8 @@ import {
   CalendarPage,
   PptPage,
   PhotoPage,
-  KakaoPage
+  KakaoPage,
+  KakaoChatPage
 } from './pages'
 
 
@@ -46,9 +47,12 @@ function App({history}) {
             <Route exact path='/' component={IntroPage} />
             <Route exact path='/intro' component={LandingPage} />
             <Route exact path='/start' component={StartPage} />
+
             <Route exact path='/desktop' component={DesktopPage} />
+
              <Route exact path='/sapari' component={SapariPage} />
              <Route exact path='/sapari/gmail' component={GmailPage} />
+
              <Route exact path='/memo' component={MemoPage} />
              <Route exact path='/word' component={WordPage} />
              <Route exact path='/premiere' component={PremierePage} />
@@ -57,7 +61,9 @@ function App({history}) {
              <Route exact path='/calendar' component={CalendarPage} />
              <Route exact path='/ppt' component={PptPage} />
              <Route exact path='/photo' component={PhotoPage} />
+
              <Route exact path='/kakao' component={KakaoPage} />
+            <Route exact path='/kakao/chat' component={KakaoChatPage} />
           </Switch>
            <Dock />
         </Router>

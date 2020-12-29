@@ -18,8 +18,9 @@ import IconGreen from '../../data/icons/btn_green.svg';
 
 import { Carousel } from 'react-bootstrap';
 
-import Dec from '../../data/images/마야 작업화면_full screen.png';
-
+import Oct from '../../data/images/캘린더10월.svg';
+import Nov from '../../data/images/캘린더11월.svg';
+import Dec from '../../data/images/캘린더12월.svg';
 
 
 
@@ -68,6 +69,13 @@ const CalendarPage = ({num}) => {
                 style={{width: '100%', height: '100%'}}
             >
                 <Carousel.Item>
+                    <img className="calendar-image" src={Oct} />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="calendar-image" src={Nov} />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="calendar-image" src={Dec} />
                 </Carousel.Item>
             </Carousel>
         </div>
