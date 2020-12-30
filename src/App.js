@@ -4,7 +4,7 @@ import {
   Switch,
   BrowserRouter as Router,
 } from "react-router-dom";
-import React, {useContext} from 'react';
+import React, {useState, useEffect} from 'react';
 import UserProvider from './providers/UserProvider';
 import './App.css';
 import {
@@ -24,7 +24,9 @@ import {
   PhotoPage,
   KakaoPage,
   KakaoChatPage,
-  EndingPage
+  EndingPage,
+
+  MobilePage
 } from './pages'
 
 
@@ -37,11 +39,26 @@ import { Dock } from './components/index';
 function App({history}) {
   //  const { finder, setFinder, 
   // f2020, job, taxi } = useContext(UserContext);
+  var filter = "win16|win32|win64|mac|macintel";
+
+  const [device, setDevice] = useState('PC')
+
+  useEffect(() => {
+    if(navigator.platform){
+      console.log(navigator.platform)
+      if(0 > filter.indexOf(navigator.platform.toLowerCase())){
+        setDevice("Mobile");
+      }
+    }
+  }, [])
 
   return (
     <UserProvider 
     render={
       <div className="App">
+        {device === 'PC'
+        ?
+        <>
         <div className="frame">
         <Router basename={process.env.PUBLIC_URL}>
           <Switch>
@@ -70,11 +87,16 @@ function App({history}) {
           </Switch>
            <Dock />
         </Router>
-
-        {/* finder &&
-        <FolderPopup show={finder} setShow={setFinder} 
-        folderName={'documents'} /> */}
         </div>
+        <div className="frame-mobile">
+          <MobilePage />
+        </div>
+        </>
+        :
+        <div className="frame-mobile">
+          <MobilePage />
+        </div>
+        }
       </div>
     } />
   );

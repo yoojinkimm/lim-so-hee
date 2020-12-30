@@ -22,8 +22,13 @@ import IconPpt from '../../data/icons/ppt_icon.png';
 import IconExcel from '../../data/icons/excel.png';
 import IconPhoto from '../../data/icons/image_icon.png';
 
+import PasswordInput from '../PasswordInput';
 
 import { UserContext } from '../../providers/UserProvider';
+
+
+const backupPW = "9780" // 원래 학번 20170987
+const backupPWHint = '학번 뒤에서 네자리 랜덤순서'
 
 
 const FolderPopup = ({folderName, show, setShow}) => {
@@ -32,6 +37,8 @@ const FolderPopup = ({folderName, show, setShow}) => {
 
     const [nowFolder, setNowFolder] = useState([]);
     const [update, setUpdate] = useState(false);
+
+    const [backupPWInput, setBackupPWInput] = useState("")
 
     // const { finder, nowFolder, setNowFolder, update, setUpdate } = useContext(UserContext);
     const { finder } = useContext(UserContext);
@@ -44,10 +51,6 @@ const FolderPopup = ({folderName, show, setShow}) => {
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "자기소개서"}})}>
                     <img src={IconWord} />
                     <div>자기소개서</div>
-                </div>,
-                <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "포트폴리오"}})}>
-                    <img src={IconPpt} />
-                    <div>포트폴리오</div>
                 </div>,
             ]
         },
@@ -119,9 +122,9 @@ const FolderPopup = ({folderName, show, setShow}) => {
             index: 5,
             folderName : '대외활동',
             contents: [
-                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "영화 소모임 자료"}})}>
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "영화 학회 지원서"}})}>
                     <img src={IconWord} />
-                    <div>영화 소모임 자료</div>
+                    <div>영화 학회 지원서</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "공모전 최종"}})}>
                     <img src={IconPpt} />
@@ -149,9 +152,13 @@ const FolderPopup = ({folderName, show, setShow}) => {
             index: 6,
             folderName : '시나리오(초안)',
             contents: [
-                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "시나리오"}})}>
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "시나리오1"}})}>
                     <img src={IconWord} />
-                    <div>시나리오</div>
+                    <div>시나리오1</div>
+                </div>,
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "시나리오2"}})}>
+                    <img src={IconWord} />
+                    <div>시나리오2</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "아이디어"}})}>
                     <img src={IconWord} />
@@ -187,18 +194,19 @@ const FolderPopup = ({folderName, show, setShow}) => {
 
 
     const changeNowFolder = (name) => {
-        // if(name === 'documents' && finder){setUpdate(!update);}
-        // else if(name === 'documents' && f2020){}
-        // else if(name === 'documents' && job){}
-        // else if(name === 'documents' && taxi){}
-        // else{
             var list = [];
             list = nowFolder;
             list.push(name);
             setNowFolder(list);
             setUpdate(!update);
-            // console.log(list)
-        // }
+            console.log(list);
+    }
+
+    const goBackFolder = () => {
+            var list = [];
+            list = nowFolder.slice(0, nowFolder.length - 1);
+            setNowFolder(list);
+            setUpdate(!update);
     }
 
 
@@ -220,7 +228,11 @@ const FolderPopup = ({folderName, show, setShow}) => {
                     <img className="window-btn click" src={IconYellow} onClick={() => setShow(false)} />
                     <img className="window-btn click" src={IconGreen} />
                 </div>
-                <div className='folder-title-text'>{nowFolder[nowFolder.length - 1]}</div>
+                 <div style={{width: '100%', paddingLeft: 70, display: 'flex', flexDirection: 'row'}}>
+                    <div className="change-view-btn click" onClick={() => {goBackFolder()}}>◁</div>
+                     <div className='folder-title-text' style={{paddingLeft: '40%'}}>{nowFolder[nowFolder.length - 1]}</div>
+                </div>
+               
             </div>
             <Row style={{width: '100%', height: '100%'}}>
                 <Col sm={3} md={3} lg={3} className="folder-menu">
@@ -263,11 +275,20 @@ const FolderPopup = ({folderName, show, setShow}) => {
                         }
                         {nowFolder[nowFolder.length - 1] === '백업' &&
                         <>
-                            {folder_contents[3].contents.map((item) => {
-                                return(
-                                    <Col sm={6} md={6} lg={4} xl={3}>{item}</Col>
-                                )
-                            })}
+                            { backupPWInput !== backupPW
+                            ?
+                            <PasswordInput value={backupPWInput} 
+                            onChange={(e) => setBackupPWInput(e.target.value)}
+                            answer={backupPW} hint={backupPWHint} />
+                            :
+                            <>
+                                {folder_contents[3].contents.map((item) => {
+                                    return(
+                                        <Col sm={6} md={6} lg={4} xl={3}>{item}</Col>
+                                    )
+                                })}
+                            </>
+                            }
                         </>
                         }
                         {nowFolder[nowFolder.length - 1] === '2020-2' &&

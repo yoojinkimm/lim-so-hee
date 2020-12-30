@@ -1,8 +1,24 @@
+import scenario1_1 from '../images/시나리오1_1.jpg';
+import scenario1_2 from '../images/시나리오1_2.jpg';
+import scenario1_3 from '../images/시나리오1_3.jpg';
+import scenario1_4 from '../images/시나리오1_4.jpg';
+
+import scenario2_1 from '../images/시나리오2_1.jpg';
+import scenario2_2 from '../images/시나리오2_2.jpg';
+import scenario2_3 from '../images/시나리오2_3.jpg';
+import scenario2_4 from '../images/시나리오2_4.jpg';
+import scenario2_5 from '../images/시나리오2_5.jpg';
+import scenario2_6 from '../images/시나리오2_6.jpg';
+import scenario2_7 from '../images/시나리오2_7.jpg';
+
+import apply from '../images/부귀영화 지원서.jpg';
+
+
 export const text = [
     {
         index: 0,
         title: '자기소개서',
-        contents: <>
+        contents: [ <>
         <br />
         (주)제우 자소서 <br />
 <br />
@@ -31,8 +47,7 @@ export const text = [
         스타트업에서 마케팅뿐만 아니라 동시에 영업과 프로젝트 매니저 역할을 했습니다. 이 과정에서 다양한 이해관계자와의 커뮤니케이션 스킬, 데이터 분석, 그리고 콘텐츠 기획 능력을 고루 길렀습니다. 실무 경험을 바탕으로, 고객과 시장에 대한 이해 기반의 실질적인 마케팅 전략을 세우는 사원이 되겠습니다.<br />
 <br /><br />
         </>,
-
-        contents_2 : <>
+        <>
         03. 입사 후 포부(400자 내외)<br />
 <br />
         “따뜻한 마케터를 꿈꿉니다.”<br />
@@ -41,12 +56,13 @@ export const text = [
         두 번째로 고객의 감정에 동떨어진 마케팅이 아닌, 고객이 공감할 수 있는 마케팅을 위한 아이디어 기획에 힘쓰겠습니다. 단순히 구매 욕구만을 자극하는 마케팅보다는 고객의 공감을 두드리는 마케팅으로 하나의 제품이 아닌 전체의 기업을 판매할 수 있는 따뜻한 마케터가 되기 위해서 노력하겠습니다.<br />
 <br />
         </>
+    ]
     },
     
     {
         index: 1,
         title: '아이디어',
-        contents: <>
+        contents: [<>
         <br />
         아이디어 <br /><br />
         -   조선에 좀비가 나타나면 어떻게 될까? <br />
@@ -61,12 +77,36 @@ export const text = [
         -   어렸을 적 연인을 다시 찾아가도록 엄마를 이끄는 딸. <br />
         -   국회의원 후보가 거짓말을 못하게 되면? <br />
         -   90년대 한 기업에서 일하던 여자 직원 세 명이 기업의 비리를 발견함.<br />
-        </>
+        </>]
     },
      {
         index: 2,
-        title: '시나리오',
-        contents: <>
-        </>
+        title: '시나리오1',
+        contents: [
+        <img className="scenario-image" src={scenario1_1} />, 
+        <img className="scenario-image"  src={scenario1_2} />,
+        <img className="scenario-image"  src={scenario1_3} />,
+        <img className="scenario-image" src={scenario1_4} />,
+        ]
+    },
+    {
+        index: 3,
+        title: '시나리오2',
+        contents: [
+        <img className="scenario-image" src={scenario2_1} />, 
+        <img className="scenario-image"  src={scenario2_2} />,
+        <img className="scenario-image"  src={scenario2_3} />,
+        <img className="scenario-image" src={scenario2_4} />,
+        <img className="scenario-image" src={scenario2_5} />,
+        <img className="scenario-image" src={scenario2_6} />,
+        <img className="scenario-image" src={scenario2_7} />,
+        ]
+    },
+    {
+        index: 4,
+        title: '영화 학회 지원서',
+        contents: [
+        <img className="scenario-image" src={apply} />, 
+        ]
     },
 ]

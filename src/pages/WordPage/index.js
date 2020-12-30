@@ -28,14 +28,16 @@ const WordPage = () => {
   const location = useLocation();
   const { user } = useContext(UserContext);
   const [item, setItem] = useState({
-      title: '', contents: '',
+      title: '', contents: [],
   })
 
   useEffect(() => {
       if (location.state !== undefined){
           if (location.state.title === "자기소개서") setItem(data.text[0])
-          if (location.state.title === "아이디어") setItem(data.text[1])
-          if (location.state.title === "시나리오") setItem(data.text[2])
+          else if (location.state.title === "아이디어") setItem(data.text[1])
+          else if (location.state.title === "시나리오1") setItem(data.text[2])
+          else if (location.state.title === "시나리오2") setItem(data.text[3])
+          else if (location.state.title === "영화 학회 지원서") setItem(data.text[4])
       }
       else {
           setItem(data.text[0])
@@ -64,16 +66,14 @@ const WordPage = () => {
             </div>
 
             <div className="word-contents">
-                <div className="word-paper">
-                    <br /> <br />
-                    {item.contents}
-                </div>
-                {item.contents_2 !== undefined &&
-                    <div className="word-paper">
-                        <br /> <br />
-                        {item.contents_2}
-                    </div>
-                }
+                {item.contents.map((text, index) => {
+                    return (
+                        <div className="word-paper">
+                            <br /> <br />
+                            {text}
+                        </div>
+                    )
+                })}
             </div>
 
         </div>

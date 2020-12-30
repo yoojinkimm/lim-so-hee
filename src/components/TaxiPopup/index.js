@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import axios from 'axios';
 
 import './taxi-pop.css';
 
@@ -11,6 +12,10 @@ import IconGreen from '../../data/icons/btn_green.svg';
 import TaxiIcon from '../../data/icons/카카오택시 아이콘.svg';
 
 import { Button, Row, Col } from 'react-bootstrap';
+
+import Promise from 'bluebird';
+
+import GeolocationInfo from '../GeolocationInfo';
 
 
 const answers = [
@@ -30,7 +35,7 @@ const answers = [
 
 
 
-const TaxiPopup = ({show, setShow}) => {
+const TaxiPopup = ({show, setShow}, props) => {
     // 랜덤 위치를 위함
     const [num, setNum] = useState(0);
 
@@ -48,24 +53,10 @@ const TaxiPopup = ({show, setShow}) => {
 
     // 이용자 현재 위치
     const [location, setLocation] = useState(null);
-    
+    const [city, setCity] = useState(null);
+    const [countryCode, setCountryCode] = useState(null);
+    const [address, setAddress] = useState(null);
 
-    useEffect(() => {
-        var max = 300;
-        var min = 100;
-        var random = Math.random() * (max - min) + min ;
-        setNum(random);
-
-        setTimeout(() => {
-            setShowLogo(false);
-        }, 3500)
-
-        
-            navigator.geolocation.getCurrentPosition((position) => {
-                setLocation([position.coords.latitude, position.coords.longitude]);
-                console.log(position.coords.latitude);
-            });
-    }, [])
 
 
     var z = 3;
@@ -90,13 +81,73 @@ const TaxiPopup = ({show, setShow}) => {
         })
     }
 
+    const getLocation = () => {
+        new Promise((resolve, reject) => {
+            navigator.geolocation.getCurrentPosition((p) => {
+                setLocation([p.coords.latitude, p.coords.longitude],
+                    () => {
+                        resolve(p.coords)
+                    }
+                );
+                console.log(p)
+            });
+        }).then((coords) => {
+            return new Promise((resolve, reject) => {
+                axios.get('https://freegeoip.net/json/').then((res) => {
+                    const data = res.data;
+                    setCity( data.city, () => {
+                        resolve({
+                            city: (data.city || data.region_name),
+                            countryCode: data.country_code,
+                            coords: coords
+                        })
+                    });
+                    setCountryCode( data.country_code )
+                    console.log(data.city)
+                }).catch((err) => {
+                    console.error(err);
+                });
+            })
+        }).then((coords) => {
+            const geocoder = new window.google.maps.Geocoder;
+            const latlng = {
+                lat: coords.latitude,
+                lng: coords.longitude
+            };
+            geocoder.geocode({
+                'location': latlng
+            }, (results, status) => {
+                setAddress(
+                    results[results.length - 1].formatted_address
+                )
+                console.log( results[results.length - 1].formatted_address )
+            });
+        });
+    }
+
+    useEffect(() => {
+        var max = 300;
+        var min = 100;
+        var random = Math.random() * (max - min) + min ;
+        setNum(random);
+
+        setTimeout(() => {
+            setShowLogo(false);
+        }, 3500)
+    }, [])
+
+    useEffect(() => {
+        getLocation();
+    })
+
     useEffect(() => {
         console.log(rightAnswer)
         if (rightAnswer === '할머니집') {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>
                 <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
-                    <div className="loca-text">현위치: </div>
+                    <GeolocationInfo />
+                    <div className="loca-text">현위치: {city} {address}</div>
                     <div className="loca-text">목적지: {answers[0].address}</div>
                 </div>
                 <div className="right-text click"
@@ -108,7 +159,8 @@ const TaxiPopup = ({show, setShow}) => {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>
                 <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
-                    <div className="loca-text">현위치: </div>
+                    <GeolocationInfo />
+                    <div className="loca-text">현위치: {city} {address}</div>
                     <div className="loca-text">목적지: {answers[1].address}</div>
                 </div>
                 <div className="right-text click"
@@ -120,7 +172,8 @@ const TaxiPopup = ({show, setShow}) => {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>
                 <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
-                    <div className="loca-text">현위치: </div>
+                    <GeolocationInfo />
+                    <div className="loca-text">현위치: {city} {address}</div>
                     <div className="loca-text">목적지: {answers[2].address}</div>
                 </div>
                 <div className="right-text click"

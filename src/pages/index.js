@@ -15,6 +15,8 @@ import PhotoPage from './PhotoPage';
 import { KakaoPage, KakaoChatPage } from './KaKaoPage';
 import EndingPage from './Endingpage';
 
+import MobilePage from './MobilePage';
+
 
 
 
@@ -35,5 +37,7 @@ export {
     PhotoPage,
     KakaoPage,
     KakaoChatPage,
-    EndingPage
+    EndingPage,
+
+    MobilePage
 }
