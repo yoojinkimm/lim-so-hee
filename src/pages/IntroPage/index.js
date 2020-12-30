@@ -13,6 +13,7 @@ import { UserContext } from '../../providers/UserProvider';
 import Typing from 'react-typing-animation';
 
 import BellRingSound from '../../data/audio/아이폰 벨소리.mp3';
+import ReactAudioPlayer from 'react-audio-player';
 
 
 const IntroPage = () => {
@@ -26,10 +27,10 @@ const IntroPage = () => {
 
   const [update, setUpdate] = useState(false);
 
-  var audioFile = new Audio(BellRingSound);
-  audioFile.pause();
-  audioFile.currentTime = 0;
-  audioFile.volume = 1;
+//   var audioFile = new Audio(BellRingSound);
+//   audioFile.pause();
+//   audioFile.currentTime = 0;
+//   audioFile.volume = 1;
 
 
   const intro_text = [
@@ -118,15 +119,15 @@ const IntroPage = () => {
   }
 
   useEffect(() => {
-      if(storyStep === 0){
-        setTimeout(() => {
-            audioFile.play();
-        }, 3000);
-      }
-      else if (storyStep === 6) {
+    //   if(storyStep === 0){
+    //     setTimeout(() => {
+    //         audioFile.play();
+    //     }, 3000);
+    //   }
+      if (storyStep === 6) {
           setUser({name: name})
       }
-  }, [storyStep, name, audioFile]);
+  }, [storyStep]);
 
 
 
@@ -203,12 +204,18 @@ const IntroPage = () => {
   return (
     <div className="intro-background">
         {storyStep === 0 &&
-        <img className="intro-phone ring" 
-        onClick={() => {
-            SetStoryStep(1);
-            audioFile.pause();
-        }}
-        src={PhoneRing} />
+        <>
+            <img className="intro-phone ring" 
+            onClick={() => {
+                SetStoryStep(1);
+                // audioFile.pause();
+            }}
+            src={PhoneRing} />
+            <ReactAudioPlayer
+            src={BellRingSound}
+            autoPlay
+            />
+        </>
         }
         {storyStep >= 1 &&
         <Row style={{display: 'flex', alignItems: 'center', width: '100%'}}>
