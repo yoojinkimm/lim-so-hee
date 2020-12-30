@@ -12,6 +12,8 @@ import { UserContext } from '../../providers/UserProvider';
 
 import Typing from 'react-typing-animation';
 
+import BellRingSound from '../../data/audio/아이폰 벨소리.mp3';
+
 
 const IntroPage = () => {
   const { setUser } = useContext(UserContext);
@@ -23,6 +25,11 @@ const IntroPage = () => {
   const [showMeText, setShowMeText] = useState(null);
 
   const [update, setUpdate] = useState(false);
+
+  var audioFile = new Audio(BellRingSound);
+  audioFile.pause();
+  audioFile.currentTime = 0;
+  audioFile.volume = 1;
 
 
   const intro_text = [
@@ -111,10 +118,16 @@ const IntroPage = () => {
   }
 
   useEffect(() => {
-      if (storyStep === 6) {
+      if(storyStep === 0){
+        setTimeout(() => {
+            audioFile.play();
+        }, 3000);
+      }
+      else if (storyStep === 6) {
           setUser({name: name})
       }
-  }, [storyStep, name])
+  }, [storyStep, name, audioFile]);
+
 
 
   const ShowText = ({num}) => {
@@ -191,7 +204,10 @@ const IntroPage = () => {
     <div className="intro-background">
         {storyStep === 0 &&
         <img className="intro-phone ring" 
-        onClick={() => SetStoryStep(1)}
+        onClick={() => {
+            SetStoryStep(1);
+            audioFile.pause();
+        }}
         src={PhoneRing} />
         }
         {storyStep >= 1 &&

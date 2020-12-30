@@ -10,6 +10,10 @@ import { Dock } from '../../components';
 // import Clock from 'react-live-clock';
 import { UserContext } from '../../providers/UserProvider';
 
+import TaxiSound from '../../data/audio/택시소리.mp3';
+import ReactAudioPlayer from 'react-audio-player';
+
+
 import Ending1_1 from '../../data/images/엔딩1-1.svg';
 import Ending1_2 from '../../data/images/엔딩1-2.svg';
 import Ending1_3 from '../../data/images/엔딩1-3.svg';
@@ -64,8 +68,13 @@ const EndingPage = () => {
 
   const [showIndex, setShowIndex] = useState(0);
 
+  // var audioFile = new Audio(TaxiSound);
+  // audioFile.volume = 1;
+
   const handleNext = () => {
-    if (showIndex === showEnding.length - 1) history.push('/start');
+    if (showIndex === showEnding.length - 1) {
+      history.push('/start');
+    }
     else setShowIndex(showIndex + 1);
   }
 
@@ -80,13 +89,29 @@ const EndingPage = () => {
       }
   }, [location])
 
+  // useEffect(() => {
+  //   if(showIndex === 0){
+      
+  //     setTimeout(() => {
+  //       audioFile.play();
+  //     }, 2000)
+  //   }
+  // }, [showIndex])
+
 
   return (
     <div className="ending-background">
         <img 
         className="ending-image"
-        onClick={() => handleNext()}
+        onClick={() => {
+          handleNext()
+        }}
         src={showEnding[showIndex]} />
+
+        <ReactAudioPlayer
+          src={TaxiSound}
+          autoPlay
+        />
     </div>
   );
 }

@@ -12,6 +12,7 @@
     "bootstrap": "^4.5.3",
     "moment-timezone": "^0.5.32",
     "react": "^17.0.1",
+    "react-audio-player": "^0.14.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-geolocated": "^3.1.0",
