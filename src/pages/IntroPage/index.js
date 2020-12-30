@@ -211,10 +211,10 @@ const IntroPage = () => {
                 // audioFile.pause();
             }}
             src={PhoneRing} />
-            <ReactAudioPlayer
+            {/* <ReactAudioPlayer
             src={BellRingSound}
             autoPlay
-            />
+            /> */}
         </>
         }
         {storyStep >= 1 &&
