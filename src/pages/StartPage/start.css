@@ -10,7 +10,6 @@
 }
 
 .start-circle {
-  background-color: white;
   width: 100px;
   height: 100px;
   border-radius: 60px;
@@ -28,6 +27,7 @@
   padding: 4px;
   background-color: rgb(150, 150, 150);
   color: white;
+  margin-top: 24px;
 }
 
 .start-input:active {
@@ -59,20 +59,61 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 .start-cancel {
   opacity: 0.8;
   cursor: pointer;
 }
 .cancel-text {
-  font-size: 12px;
+  font-size: 16px;
   color: white;
   cursor: pointer;
+  font-weight: bold;
+  margin: 12px;
 }
 
 .header-text {
   font-size: 12px;
   color: white;
   margin-left: 5px;
+}
+.start-image {
+  background-color: rgba(120, 120, 120, 0.6);
+  border-radius: 50px;
+  width: 50%;
+  height: auto;
+  position: fixed;
+  top: 15%;
+  left: 25%;
+  padding: 40px;
+  color: white;
+}
+.start-tutorial {
+  font-weight: bold;
+}
+.text-pink {
+  color: #ffe3e3;
+}
+.close-btn {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.tutorial-title {
+  text-align: center;
+  font-size: 24px;
+}
+.start-about {
+  text-align: center;
+  font-weight: bold;
+}
+.fbold {
+  font-weight: bold;
+}
+.fbig {
+  font-size: 24px;
+}
+.fsmall {
+  font-size: 14px;
 }

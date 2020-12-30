@@ -18,9 +18,9 @@ import IconGreen from '../../data/icons/btn_green.svg';
 
 import { Carousel } from 'react-bootstrap';
 
-import Oct from '../../data/images/캘린더10월.svg';
-import Nov from '../../data/images/캘린더11월.svg';
-import Dec from '../../data/images/캘린더12월.svg';
+import Oct from '../../data/images/캘린더_no header_10월.svg';
+import Nov from '../../data/images/캘린더_no header_11월.svg';
+import Dec from '../../data/images/캘린더_no header_12월.svg';
 
 
 

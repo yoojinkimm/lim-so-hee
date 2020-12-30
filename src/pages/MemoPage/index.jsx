@@ -45,7 +45,7 @@ const MemoPage = () => {
                return(
                    <div className="memo-item click"
                    onClick={() => setShowMemo(index)}
-                   style={{backgroundColor: showMemo === index &&  'yellow'}}>
+                   style={{backgroundColor: showMemo === index && 'rgba(80,80,80, 0.3)'}}>
                        <div className="list-title">
                            {item.password !== undefined
                            ? '잠금'
@@ -122,13 +122,13 @@ const MemoPage = () => {
             <Col sm={2} md={2} lg={2} className="memo-menu">
                 <div>ICloud</div>
                 <div className="memo-menu-item click" 
-                style={{backgroundColor: showFolder === 0 && 'blue',
+                style={{backgroundColor: showFolder === 0 && 'rgba(80,80,80, 0.6)',
                 color: showFolder === 0 ? 'white' : 'rgba(150, 150, 150)'}}
                 onClick={() => changeFolder(0)}>
                     <div>todo</div><div>{data.folder1List.length}</div>
                 </div>
                 <div className="memo-menu-item click" 
-                style={{backgroundColor: showFolder === 1 && 'blue',
+                style={{backgroundColor: showFolder === 1 && 'rgba(80,80,80, 0.6)',
                 color: showFolder === 1 ? 'white' : 'rgba(150, 150, 150)'}}
                 onClick={() => changeFolder(1)}>
                     <div>일기</div><div>{data.folder2List.length}</div>
