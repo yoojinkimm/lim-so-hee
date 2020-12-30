@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.687efba3.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.081d7478.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.081d7478.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.4567a17e.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.cafe43a3.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.cafe43a3.chunk.js.map",
     "runtime-main.js": "/lim-so-hee/static/js/runtime-main.5771ba73.js",
     "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.5771ba73.js.map",
     "static/js/2.29702e8b.chunk.js": "/lim-so-hee/static/js/2.29702e8b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.891e7335.chunk.js": "/lim-so-hee/static/js/3.891e7335.chunk.js",
     "static/js/3.891e7335.chunk.js.map": "/lim-so-hee/static/js/3.891e7335.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.687efba3.chunk.css.map": "/lim-so-hee/static/css/main.687efba3.chunk.css.map",
+    "static/css/main.4567a17e.chunk.css.map": "/lim-so-hee/static/css/main.4567a17e.chunk.css.map",
     "static/js/2.29702e8b.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.29702e8b.chunk.js.LICENSE.txt",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
     "static/media/Back Button.5e7993fa.svg": "/lim-so-hee/static/media/Back Button.5e7993fa.svg",
@@ -44,6 +44,7 @@
     "static/media/google_text_image.40a01a6f.svg": "/lim-so-hee/static/media/google_text_image.40a01a6f.svg",
     "static/media/header.a632040c.svg": "/lim-so-hee/static/media/header.a632040c.svg",
     "static/media/kakaotalk.2a590c6e.svg": "/lim-so-hee/static/media/kakaotalk.2a590c6e.svg",
+    "static/media/money_email.a7ca9d34.png": "/lim-so-hee/static/media/money_email.a7ca9d34.png",
     "static/media/word.css": "/lim-so-hee/static/media/paper.505bf3a9.svg",
     "static/media/phone_call.e2a0aa5a.png": "/lim-so-hee/static/media/phone_call.e2a0aa5a.png",
     "static/media/phone_ring.b6333439.png": "/lim-so-hee/static/media/phone_ring.b6333439.png",
@@ -90,6 +91,7 @@
     "static/media/인창 과제.3921e9f1.png": "/lim-so-hee/static/media/인창 과제.3921e9f1.png",
     "static/media/일러스트 작업화면.281c680a.png": "/lim-so-hee/static/media/일러스트 작업화면.281c680a.png",
     "static/media/종세문 과제.54ee74a3.png": "/lim-so-hee/static/media/종세문 과제.54ee74a3.png",
+    "static/media/지메일 타이틀_한국장학재단.f96bf22e.svg": "/lim-so-hee/static/media/지메일 타이틀_한국장학재단.f96bf22e.svg",
     "static/media/채팅 버튼.bc50e240.svg": "/lim-so-hee/static/media/채팅 버튼.bc50e240.svg",
     "static/media/채팅 푸터.1663e116.svg": "/lim-so-hee/static/media/채팅 푸터.1663e116.svg",
     "static/media/채팅.8aaca855.svg": "/lim-so-hee/static/media/채팅.8aaca855.svg",
@@ -113,6 +115,7 @@
     "static/media/채팅목록_임희준.c51f73aa.svg": "/lim-so-hee/static/media/채팅목록_임희준.c51f73aa.svg",
     "static/media/채팅목록_콘마스.3a7ef3d6.svg": "/lim-so-hee/static/media/채팅목록_콘마스.3a7ef3d6.svg",
     "static/media/채팅목록_한울자매.6618a857.svg": "/lim-so-hee/static/media/채팅목록_한울자매.6618a857.svg",
+    "static/media/초등학교 사진.4df64370.png": "/lim-so-hee/static/media/초등학교 사진.4df64370.png",
     "static/media/친구 목록.7c689a0c.svg": "/lim-so-hee/static/media/친구 목록.7c689a0c.svg",
     "static/media/친구 버튼.35516721.svg": "/lim-so-hee/static/media/친구 버튼.35516721.svg",
     "static/media/카카오택시 아이콘.ce83de2c.svg": "/lim-so-hee/static/media/카카오택시 아이콘.ce83de2c.svg",
@@ -130,12 +133,14 @@
     "static/media/톡방헤더_임희준.a903e16d.svg": "/lim-so-hee/static/media/톡방헤더_임희준.a903e16d.svg",
     "static/media/톡방헤더_콘마스.ef80384a.svg": "/lim-so-hee/static/media/톡방헤더_콘마스.ef80384a.svg",
     "static/media/톡방헤더_한울자매.50a36f25.svg": "/lim-so-hee/static/media/톡방헤더_한울자매.50a36f25.svg",
-    "static/media/프로필+즐찾.6cfcf581.svg": "/lim-so-hee/static/media/프로필+즐찾.6cfcf581.svg"
+    "static/media/프로필+즐찾.6cfcf581.svg": "/lim-so-hee/static/media/프로필+즐찾.6cfcf581.svg",
+    "static/media/할머니집1.447482fb.jpg": "/lim-so-hee/static/media/할머니집1.447482fb.jpg",
+    "static/media/할머니집2.bf9339e1.jpg": "/lim-so-hee/static/media/할머니집2.bf9339e1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5771ba73.js",
     "static/js/2.29702e8b.chunk.js",
-    "static/css/main.687efba3.chunk.css",
-    "static/js/main.081d7478.chunk.js"
+    "static/css/main.4567a17e.chunk.css",
+    "static/js/main.cafe43a3.chunk.js"
   ]
 }
