@@ -27,8 +27,8 @@ import PasswordInput from '../PasswordInput';
 import { UserContext } from '../../providers/UserProvider';
 
 
-const backupPW = "9780" // 원래 학번 20170987
-const backupPWHint = '학번 뒤에서 네자리 랜덤순서'
+const backupPW = "7890" // 원래 학번 20170987
+const backupPWHint = '학번 뒤 네자리 reverse'
 
 
 const FolderPopup = ({folderName, show, setShow}) => {

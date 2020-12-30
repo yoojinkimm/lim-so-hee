@@ -10,6 +10,7 @@ import IconYellow from '../../data/icons/btn_yellow.svg';
 import IconGreen from '../../data/icons/btn_green.svg';
 
 import TaxiIcon from '../../data/icons/카카오택시 아이콘.svg';
+import TaxiComponent from '../../data/images/카카오택시 마지막 최종.png';
 
 import { Button, Row, Col } from 'react-bootstrap';
 
@@ -145,40 +146,40 @@ const TaxiPopup = ({show, setShow}, props) => {
         if (rightAnswer === '할머니집') {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>
-                <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
+                <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column', marginTop: 40}}>
                     <GeolocationInfo />
                     <div className="loca-text">현위치: {city} {address}</div>
                     <div className="loca-text">목적지: {answers[0].address}</div>
                 </div>
-                <div className="right-text click"
+                <img 
                 onClick={() => history.push({pathname: '/ending', state: {answer: answers[0].name}})}
-                >출발합니다</div>
+                className="taxi-image click" src={TaxiComponent} />
             </>)
         }
         else if (rightAnswer === '오이도') {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>
-                <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
+                <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column', marginTop: 40}}>
                     <GeolocationInfo />
                     <div className="loca-text">현위치: {city} {address}</div>
                     <div className="loca-text">목적지: {answers[1].address}</div>
                 </div>
-                <div className="right-text click"
+                <img 
                 onClick={() => history.push({pathname: '/ending', state: {answer: answers[1].name}})}
-                >출발합니다</div>
+                className="taxi-image click" src={TaxiComponent} />
             </>)
         }
         else if (rightAnswer === '캠핑장') {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>
-                <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column'}}>
+                <div style={{display: 'flex', alignItems: 'flex-start', flexDirection: 'column', marginTop: 40}}>
                     <GeolocationInfo />
                     <div className="loca-text">현위치: {city} {address}</div>
                     <div className="loca-text">목적지: {answers[2].address}</div>
                 </div>
-                <div className="right-text click"
+                <img 
                 onClick={() => history.push({pathname: '/ending', state: {answer: answers[2].name}})}
-                >출발합니다</div>
+                className="taxi-image click" src={TaxiComponent} />
             </>)
         }
     }, [rightAnswer])
