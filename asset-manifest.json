@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.85f23b11.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.6990757a.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.6990757a.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.687efba3.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.081d7478.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.081d7478.chunk.js.map",
     "runtime-main.js": "/lim-so-hee/static/js/runtime-main.5771ba73.js",
     "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.5771ba73.js.map",
     "static/js/2.29702e8b.chunk.js": "/lim-so-hee/static/js/2.29702e8b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.891e7335.chunk.js": "/lim-so-hee/static/js/3.891e7335.chunk.js",
     "static/js/3.891e7335.chunk.js.map": "/lim-so-hee/static/js/3.891e7335.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.85f23b11.chunk.css.map": "/lim-so-hee/static/css/main.85f23b11.chunk.css.map",
+    "static/css/main.687efba3.chunk.css.map": "/lim-so-hee/static/css/main.687efba3.chunk.css.map",
     "static/js/2.29702e8b.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.29702e8b.chunk.js.LICENSE.txt",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
     "static/media/Back Button.5e7993fa.svg": "/lim-so-hee/static/media/Back Button.5e7993fa.svg",
@@ -22,6 +22,7 @@
     "static/media/Photoshop.f34efa62.svg": "/lim-so-hee/static/media/Photoshop.f34efa62.svg",
     "static/media/Premiere.d24349fe.svg": "/lim-so-hee/static/media/Premiere.d24349fe.svg",
     "static/media/Sender.c923e78e.svg": "/lim-so-hee/static/media/Sender.c923e78e.svg",
+    "static/media/about.c1a2abdf.svg": "/lim-so-hee/static/media/about.c1a2abdf.svg",
     "static/media/chat.css": "/lim-so-hee/static/media/bg.64708781.png",
     "static/media/btn_green.6e633c6a.svg": "/lim-so-hee/static/media/btn_green.6e633c6a.svg",
     "static/media/btn_red.48c75725.svg": "/lim-so-hee/static/media/btn_red.48c75725.svg",
@@ -47,8 +48,10 @@
     "static/media/phone_call.e2a0aa5a.png": "/lim-so-hee/static/media/phone_call.e2a0aa5a.png",
     "static/media/phone_ring.b6333439.png": "/lim-so-hee/static/media/phone_ring.b6333439.png",
     "static/media/premiere-다큐1.cffe5f07.png": "/lim-so-hee/static/media/premiere-다큐1.cffe5f07.png",
+    "static/media/profile.4b44fa1f.png": "/lim-so-hee/static/media/profile.4b44fa1f.png",
     "static/media/search_history.4eb5ab8f.svg": "/lim-so-hee/static/media/search_history.4eb5ab8f.svg",
     "static/media/time.a0417232.svg": "/lim-so-hee/static/media/time.a0417232.svg",
+    "static/media/tutorial.8fc8e5e9.svg": "/lim-so-hee/static/media/tutorial.8fc8e5e9.svg",
     "static/media/word-menu.17f958af.png": "/lim-so-hee/static/media/word-menu.17f958af.png",
     "static/media/공모전.b9a6d4ad.png": "/lim-so-hee/static/media/공모전.b9a6d4ad.png",
     "static/media/공모전2.cad1831e.png": "/lim-so-hee/static/media/공모전2.cad1831e.png",
@@ -113,9 +116,9 @@
     "static/media/친구 목록.7c689a0c.svg": "/lim-so-hee/static/media/친구 목록.7c689a0c.svg",
     "static/media/친구 버튼.35516721.svg": "/lim-so-hee/static/media/친구 버튼.35516721.svg",
     "static/media/카카오택시 아이콘.ce83de2c.svg": "/lim-so-hee/static/media/카카오택시 아이콘.ce83de2c.svg",
-    "static/media/캘린더10월.b2e87747.svg": "/lim-so-hee/static/media/캘린더10월.b2e87747.svg",
-    "static/media/캘린더11월.99beac37.svg": "/lim-so-hee/static/media/캘린더11월.99beac37.svg",
-    "static/media/캘린더12월.3ba4ede9.svg": "/lim-so-hee/static/media/캘린더12월.3ba4ede9.svg",
+    "static/media/캘린더_no header_10월.33f9c66a.svg": "/lim-so-hee/static/media/캘린더_no header_10월.33f9c66a.svg",
+    "static/media/캘린더_no header_11월.4b07a611.svg": "/lim-so-hee/static/media/캘린더_no header_11월.4b07a611.svg",
+    "static/media/캘린더_no header_12월.6e58cb30.svg": "/lim-so-hee/static/media/캘린더_no header_12월.6e58cb30.svg",
     "static/media/택시소리.ec6a01a3.mp3": "/lim-so-hee/static/media/택시소리.ec6a01a3.mp3",
     "static/media/톡방헤더_공모전.15f1329b.svg": "/lim-so-hee/static/media/톡방헤더_공모전.15f1329b.svg",
     "static/media/톡방헤더_나.c1b8695c.svg": "/lim-so-hee/static/media/톡방헤더_나.c1b8695c.svg",
@@ -132,7 +135,7 @@
   "entrypoints": [
     "static/js/runtime-main.5771ba73.js",
     "static/js/2.29702e8b.chunk.js",
-    "static/css/main.85f23b11.chunk.css",
-    "static/js/main.6990757a.chunk.js"
+    "static/css/main.687efba3.chunk.css",
+    "static/js/main.081d7478.chunk.js"
   ]
 }
