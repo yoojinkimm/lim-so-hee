@@ -90,6 +90,9 @@
 .mail-contents-text {
   padding: 50px;
 }
+.email-image {
+  width: 100%;
+}
 
 .col,
 .col-1,

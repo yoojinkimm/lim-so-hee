@@ -29,25 +29,17 @@ import IconBack from '../../data/icons/Back Button.svg';
 import TextDate from '../../data/images/Date Star.svg';
 import TextSender from '../../data/images/Sender.svg';
 
+import MoneyEmail from '../../data/images/money_email.png';
+import MoneyMailHeader from '../../data/images/지메일 타이틀_한국장학재단.svg';
+
 const receivedList = [
-      {mail: 'sss@gmail.com', title: '[(주)제우 Internship 4기 면접 결과 발표드립니다.]', date: '12월 23일', show: 0},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
-      {mail: 'sss@gmail.com', title: '학자금 대출 안내', date: '12월 15일'},
+      {mail: 'jewoo_recruit@gmail.com', title: '[(주)제우 Internship 4기 면접 결과 발표드립니다.]', date: '12월 23일', show: 0},
+      {mail: 'kosaf@kosaf.go.kr', title: '2020년 2학기 학자금대출 실행 및 핵심설명서 안내', date: '11월 15일', show: 1},
 ]
 
 const sentList = [
-      {mail: '김유진', title: '장학금 신청', date: '12월 10일'},
-      {mail: '김유진', title: '장학금 신청', date: '12월 10일'},
-      {mail: '김유진', title: '장학금 신청', date: '12월 10일'},
-      {mail: '김유진', title: '장학금 신청', date: '12월 10일'},
-      {mail: '김유진', title: '장학금 신청', date: '12월 10일'},
+      {mail: '제우 인사팀', title: '동계 인턴십 서류 지원', date: '11월 16일'},
+      {mail: '한국장학재단', title: '2020-2학기 생활비 대출 신청', date: '11월 10일'},
 ]
 
 const mail_contents = [
@@ -67,6 +59,13 @@ const mail_contents = [
             더 좋은 기회에, 더 좋은 자리에서 만나뵙길 진심으로 바라겠습니다.  <br />
             <br />
             감사합니다. <br />
+        </>
+    },
+    {
+        title: '2020년 2학기 학자금대출 실행 및 핵심설명서 안내',
+        contents: 
+        <>
+            <img className="email-image" src={MoneyEmail} />
         </>
     },
 ]
@@ -126,14 +125,23 @@ const GmailPage = () => {
 
 
   const showMailContent = () => {
-      let nowItem = mail_contents.[showMailNum]
+      let nowItem = mail_contents[showMailNum]
       return (
         <div className="mail-cotents-container">
             <img className="click" src={IconBack} onClick={() => setShowMailNum(-1)} />
+            {showMailNum === 0 &&
             <div className="mail-contents-title">{nowItem.title}</div>
+            }
             <div className="mail-contents-header">
-                <img src={TextSender} />
-                 <img src={TextDate} />
+                {showMailNum === 0 &&
+                <>
+                    <img src={TextSender} />
+                    <img src={TextDate} />
+                </>
+                }
+                 {showMailNum === 1 &&
+                 <img style={{marginTop: 30}} src={MoneyMailHeader} />
+                 }
             </div>
 
             <div className="mail-contents-text">{nowItem.contents}</div>
@@ -194,6 +202,9 @@ const GmailPage = () => {
             {/* mail list */}
             <Col sm={10} md={10} lg={10}>
                 { showMailNum === 0 &&
+                    showMailContent()
+                }
+                { showMailNum === 1 &&
                     showMailContent()
                 }
                 { showMailNum === -1 &&

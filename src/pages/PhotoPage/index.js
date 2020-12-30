@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useContext } from 'react';
 import '../../App.css';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
 import './photo.css';
 
@@ -19,16 +19,24 @@ import * as data from '../../data/text/image';
 
 
 
-const PhotoPage = ({title}) => {
+
+
+
+const PhotoPage = () => {
   const history = useHistory();
   const { user } = useContext(UserContext);
+  const location = useLocation();
   const [nowItem, setNowItem] = useState({ title: '', url: '' });
 
   useEffect(() => {
-      if (title !== undefined) {
-          if (title === '할머니집') setNowItem(data.image_contents[0])
+      if (location.state !== undefined) {
+          if (location.state.title === '할머니 집 사진1') setNowItem(data.image_contents[0])
+          else if (location.state.title === '할머니 집 사진2') setNowItem(data.image_contents[1])
+          else if (location.state.title === '초등학교 사진') setNowItem(data.image_contents[2])
+      } else {
+          setNowItem(data.image_contents[0])
       }
-  }, [])
+  }, [location])
 
 
 
@@ -50,7 +58,7 @@ const PhotoPage = ({title}) => {
         </div>
 
         <div className="photo-container">
-            <img src={nowItem.url} />
+            <img className="photo-image" src={nowItem.url} />
         </div>
 
         

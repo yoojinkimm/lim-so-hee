@@ -170,11 +170,15 @@ const FolderPopup = ({folderName, show, setShow}) => {
             index: 7,
             folderName : '사진',
             contents: [
-                <div className="folder-icon click" onClick={() => history.push('/photo')}>
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "할머니 집 사진1"}})}>
                     <img src={IconPhoto} />
-                    <div>할머니 집 사진</div>
+                    <div>할머니 집 사진1</div>
                 </div>,
-                <div className="folder-icon click" onClick={() => history.push('/photo')}>
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "할머니 집 사진2"}})}>
+                    <img src={IconPhoto} />
+                    <div>할머니 집 사진2</div>
+                </div>,
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "초등학교 사진"}})}>
                     <img src={IconPhoto} />
                     <div>초등학교 사진</div>
                 </div>,
