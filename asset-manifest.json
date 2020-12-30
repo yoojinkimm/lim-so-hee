@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.4567a17e.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.48c6eabe.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.48c6eabe.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.b4bda4b6.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.cac02954.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.cac02954.chunk.js.map",
     "runtime-main.js": "/lim-so-hee/static/js/runtime-main.5771ba73.js",
     "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.5771ba73.js.map",
-    "static/js/2.f707deea.chunk.js": "/lim-so-hee/static/js/2.f707deea.chunk.js",
-    "static/js/2.f707deea.chunk.js.map": "/lim-so-hee/static/js/2.f707deea.chunk.js.map",
+    "static/js/2.66d75065.chunk.js": "/lim-so-hee/static/js/2.66d75065.chunk.js",
+    "static/js/2.66d75065.chunk.js.map": "/lim-so-hee/static/js/2.66d75065.chunk.js.map",
     "static/js/3.891e7335.chunk.js": "/lim-so-hee/static/js/3.891e7335.chunk.js",
     "static/js/3.891e7335.chunk.js.map": "/lim-so-hee/static/js/3.891e7335.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.4567a17e.chunk.css.map": "/lim-so-hee/static/css/main.4567a17e.chunk.css.map",
-    "static/js/2.f707deea.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.f707deea.chunk.js.LICENSE.txt",
+    "static/css/main.b4bda4b6.chunk.css.map": "/lim-so-hee/static/css/main.b4bda4b6.chunk.css.map",
+    "static/js/2.66d75065.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.66d75065.chunk.js.LICENSE.txt",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
     "static/media/Back Button.5e7993fa.svg": "/lim-so-hee/static/media/Back Button.5e7993fa.svg",
     "static/media/Date Star.d5f24040.svg": "/lim-so-hee/static/media/Date Star.d5f24040.svg",
@@ -22,7 +22,7 @@
     "static/media/Photoshop.f34efa62.svg": "/lim-so-hee/static/media/Photoshop.f34efa62.svg",
     "static/media/Premiere.d24349fe.svg": "/lim-so-hee/static/media/Premiere.d24349fe.svg",
     "static/media/Sender.c923e78e.svg": "/lim-so-hee/static/media/Sender.c923e78e.svg",
-    "static/media/about.c1a2abdf.svg": "/lim-so-hee/static/media/about.c1a2abdf.svg",
+    "static/media/about.518253f6.png": "/lim-so-hee/static/media/about.518253f6.png",
     "static/media/chat.css": "/lim-so-hee/static/media/bg.64708781.png",
     "static/media/btn_green.6e633c6a.svg": "/lim-so-hee/static/media/btn_green.6e633c6a.svg",
     "static/media/btn_red.48c75725.svg": "/lim-so-hee/static/media/btn_red.48c75725.svg",
@@ -52,7 +52,7 @@
     "static/media/profile.4b44fa1f.png": "/lim-so-hee/static/media/profile.4b44fa1f.png",
     "static/media/search_history.4eb5ab8f.svg": "/lim-so-hee/static/media/search_history.4eb5ab8f.svg",
     "static/media/time.a0417232.svg": "/lim-so-hee/static/media/time.a0417232.svg",
-    "static/media/tutorial.8fc8e5e9.svg": "/lim-so-hee/static/media/tutorial.8fc8e5e9.svg",
+    "static/media/tutorial.22b9b9c1.png": "/lim-so-hee/static/media/tutorial.22b9b9c1.png",
     "static/media/word-menu.17f958af.png": "/lim-so-hee/static/media/word-menu.17f958af.png",
     "static/media/공모전.b9a6d4ad.png": "/lim-so-hee/static/media/공모전.b9a6d4ad.png",
     "static/media/공모전2.cad1831e.png": "/lim-so-hee/static/media/공모전2.cad1831e.png",
@@ -118,6 +118,7 @@
     "static/media/초등학교 사진.4df64370.png": "/lim-so-hee/static/media/초등학교 사진.4df64370.png",
     "static/media/친구 목록.7c689a0c.svg": "/lim-so-hee/static/media/친구 목록.7c689a0c.svg",
     "static/media/친구 버튼.35516721.svg": "/lim-so-hee/static/media/친구 버튼.35516721.svg",
+    "static/media/카카오택시 마지막 최종.9794dd66.png": "/lim-so-hee/static/media/카카오택시 마지막 최종.9794dd66.png",
     "static/media/카카오택시 아이콘.ce83de2c.svg": "/lim-so-hee/static/media/카카오택시 아이콘.ce83de2c.svg",
     "static/media/캘린더_no header_10월.33f9c66a.svg": "/lim-so-hee/static/media/캘린더_no header_10월.33f9c66a.svg",
     "static/media/캘린더_no header_11월.4b07a611.svg": "/lim-so-hee/static/media/캘린더_no header_11월.4b07a611.svg",
@@ -139,8 +140,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5771ba73.js",
-    "static/js/2.f707deea.chunk.js",
-    "static/css/main.4567a17e.chunk.css",
-    "static/js/main.48c6eabe.chunk.js"
+    "static/js/2.66d75065.chunk.js",
+    "static/css/main.b4bda4b6.chunk.css",
+    "static/js/main.cac02954.chunk.js"
   ]
 }
