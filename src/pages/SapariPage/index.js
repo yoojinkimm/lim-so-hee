@@ -59,6 +59,7 @@ const SapariPage = () => {
       "영화 대학원",
       "KCA 결과",
       "KCA 접수",
+      "뉴욕대",
 
   ])
 
