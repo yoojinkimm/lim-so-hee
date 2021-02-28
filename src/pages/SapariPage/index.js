@@ -40,8 +40,17 @@ const SapariPage = () => {
   const [update, setUpdate] = useState(false);
 
   const [historyList, setHistoryList] = useState([
+      "알바몬",
+      "알바천국",
+      "링크드인",
+      "로켓펀치",
       "학자금 대출 상환기간",
       "경기도 청년 기본소득",
+      "자존감",
+      "취준생 자존감",
+      "취준생 멘탈",
+      "멘탈관리",
+      "취준생 질투",
       "바람 어디서 부는지",
       "암탉이 울면",
       "이주선",

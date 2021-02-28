@@ -40,7 +40,7 @@ const MemoPage = () => {
       if(showFolder === 1) list = data.folder2List;
 
       return(
-          <>
+          <div className="memo-list">
            {list.map((item, index) => {
                return(
                    <div className="memo-item click"
@@ -55,7 +55,7 @@ const MemoPage = () => {
                    </div>
                )
            })}
-          </>
+          </div>
       )
   }
 
@@ -117,7 +117,7 @@ const MemoPage = () => {
 
 
         <div className="memo-contents">
-        <Row style={{width: '100%', height: '100%'}}>
+        <Row style={{width: '100%', height: '100%', overflow: 'hidden'}}>
             {/* folder */}
             <Col sm={2} md={2} lg={2} className="memo-menu">
                 <div>ICloud</div>
