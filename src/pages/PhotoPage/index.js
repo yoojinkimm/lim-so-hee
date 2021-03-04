@@ -33,6 +33,9 @@ const PhotoPage = () => {
           if (location.state.title === '할머니 집 사진1') setNowItem(data.image_contents[0])
           else if (location.state.title === '할머니 집 사진2') setNowItem(data.image_contents[1])
           else if (location.state.title === '초등학교 사진') setNowItem(data.image_contents[2])
+          else if (location.state.title === '대종기획_최종') setNowItem(data.image_contents[3])
+          else if (location.state.title === '제우기획_최종') setNowItem(data.image_contents[4])
+          else if (location.state.title === 'KCA_최종') setNowItem(data.image_contents[5])
       } else {
           setNowItem(data.image_contents[0])
       }
@@ -53,7 +56,7 @@ const PhotoPage = () => {
                 <img className="window-btn click" src={IconGreen} />
             </div>
             <div className="photo-header-text">
-                {nowItem.title}.jpeg
+                {nowItem.title}
             </div>
         </div>
 

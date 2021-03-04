@@ -22,6 +22,10 @@ import IconPpt from '../../data/icons/ppt_icon.png';
 import IconExcel from '../../data/icons/excel.png';
 import IconPhoto from '../../data/icons/image_icon.png';
 
+import Thumb_Daejong from '../../data/images/대종기획_최종(썸네일).svg';
+import Thumb_Zewoo from '../../data/images/제우기획_최종(썸네일).svg';
+import Thumb_KCA from '../../data/images/KCA_최종(썸네일).svg';
+
 import PasswordInput from '../PasswordInput';
 
 import { UserContext } from '../../providers/UserProvider';
@@ -50,7 +54,7 @@ const FolderPopup = ({folderName, show, setShow}) => {
             contents: [
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "자기소개서"}})}>
                     <img src={IconWord} />
-                    <div>자기소개서</div>
+                    <div>자기소개서.docx</div>
                 </div>,
             ]
         },
@@ -102,19 +106,19 @@ const FolderPopup = ({folderName, show, setShow}) => {
             contents: [
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "웹디 과제"}})}>
                     <img src={IconPpt} />
-                    <div>웹디 과제</div>
+                    <div>웹디 과제.ai</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "인창 과제"}})}>
                     <img src={IconPpt} />
-                    <div>인창 과제</div>
+                    <div>인창 과제.pptx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push('/maya')}>
                     <img src={IconMaya} />
-                    <div>모델링 과제</div>
+                    <div>모델링 과제.ma</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "종세문 과제"}})}>
                     <img src={IconPpt} />
-                    <div>종세문 과제</div>
+                    <div>종세문 과제.pptx</div>
                 </div>,
             ]
         },
@@ -124,31 +128,43 @@ const FolderPopup = ({folderName, show, setShow}) => {
             contents: [
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "영화 학회 지원서"}})}>
                     <img src={IconWord} />
-                    <div>영화 학회 지원서</div>
+                    <div>영화 학회 지원서.docx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "공모전 최종"}})}>
                     <img src={IconPpt} />
-                    <div>공모전 최종</div>
+                    <div>공모전 최종.pptx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "아이디어 공모전 최종"}})}>
                     <img src={IconPpt} />
-                    <div>아이디어 공모전 최종</div>
+                    <div>아이디어 공모전 최종.pptx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "마케팅 대외활동"}})}>
                     <img src={IconPpt} />
-                    <div>마케팅 대외활동</div>
+                    <div>마케팅 대외활동.pptx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push('/premiere')}>
                     <img src={IconPremiere} />
-                    <div>동아리 다큐멘터리</div>
+                    <div>동아리 다큐멘터리.mov</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push('/illust')}>
                     <img src={IconIllust} />
-                    <div>2019비주얼가이드</div>
+                    <div>2019비주얼가이드.ai</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "부귀영화 발제"}})}>
                     <img src={IconPpt} />
-                    <div>부귀영화 발제</div>
+                    <div>부귀영화 발제.pptx</div>
+                </div>,
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "대종기획_최종"}})}>
+                    <img src={Thumb_Daejong} style={{width: 43}} />
+                    <div>대종기획_최종.pdf</div>
+                </div>,
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "제우기획_최종"}})}>
+                    <img src={Thumb_Zewoo} style={{width: 43}} />
+                    <div>제우기획_최종.pdf</div>
+                </div>,
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "KCA_최종"}})}>
+                    <img src={Thumb_KCA} style={{width: 43}} />
+                    <div>KCA_최종.pdf</div>
                 </div>,
             ]
         },
@@ -158,15 +174,15 @@ const FolderPopup = ({folderName, show, setShow}) => {
             contents: [
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "시나리오1"}})}>
                     <img src={IconWord} />
-                    <div>시나리오1</div>
+                    <div>시나리오1.docx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "시나리오2"}})}>
                     <img src={IconWord} />
-                    <div>시나리오2</div>
+                    <div>시나리오2.docx</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "아이디어"}})}>
                     <img src={IconWord} />
-                    <div>아이디어</div>
+                    <div>아이디어.docx</div>
                 </div>,
             ]
         },
@@ -176,15 +192,15 @@ const FolderPopup = ({folderName, show, setShow}) => {
             contents: [
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "할머니 집 사진1"}})}>
                     <img src={IconPhoto} />
-                    <div>할머니 집 사진1</div>
+                    <div>할머니 집 사진1.jpeg</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "할머니 집 사진2"}})}>
                     <img src={IconPhoto} />
-                    <div>할머니 집 사진2</div>
+                    <div>할머니 집 사진2.jpeg</div>
                 </div>,
                 <div className="folder-icon click" onClick={() => history.push({pathname: '/photo', state: { title : "초등학교 사진"}})}>
                     <img src={IconPhoto} />
-                    <div>초등학교 사진</div>
+                    <div>초등학교 사진.jpeg</div>
                 </div>,
             ]
         },
