@@ -26,17 +26,19 @@ const PptPage = () => {
   const [item, setItem] = useState( {
         location: '',
         title: '',
-        url: '',
+        url: [],
     },);
+  const [listIndex, setListIndex] = useState(0);
 
   useEffect(() => {
       if (location.state !== undefined){
           if (location.state.title === "공모전 최종") setItem(data.text[0])
-          if (location.state.title === "아이디어 공모전 최종") setItem(data.text[1])
-          if (location.state.title === "마케팅 대외활동") setItem(data.text[2])
-          if (location.state.title === "웹디 과제") setItem(data.text[3])
-          if (location.state.title === "인창 과제") setItem(data.text[4])
-          if (location.state.title === "종세문 과제") setItem(data.text[5])
+          else if (location.state.title === "아이디어 공모전 최종") setItem(data.text[1])
+          else if (location.state.title === "마케팅 대외활동") setItem(data.text[2])
+          else if (location.state.title === "웹디 과제") setItem(data.text[3])
+          else if (location.state.title === "인창 과제") setItem(data.text[4])
+          else if (location.state.title === "종세문 과제") setItem(data.text[5])
+          else if (location.state.title === "부귀영화 발제") setItem(data.text[6])
       }
       else {
           setItem(data.text[0])
@@ -60,7 +62,20 @@ const PptPage = () => {
         </div>
 
         <div className="ppt-container">
-            <img className="ppt-image" src={item.url} />
+            {item.url.length == 1
+            ? <img className="ppt-image" src={item.url[0]} />
+            :
+            <div className="ppt-row">
+                <div className="ppt-left">
+                    {item.url.map((v, index) => {
+                        return <img className="ppt-preview-image click" onClick={() => setListIndex(index)} src={v} />
+                    })}
+                </div>
+                <div className="ppt-right">
+                    <img src={item.url[listIndex]} />
+                </div>
+            </div>
+            }
         </div>
         {/* <Dock now='ppt' /> */}
     </div>

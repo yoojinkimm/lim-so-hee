@@ -146,6 +146,10 @@ const FolderPopup = ({folderName, show, setShow}) => {
                     <img src={IconIllust} />
                     <div>2019비주얼가이드</div>
                 </div>,
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/ppt', state: { title : "부귀영화 발제"}})}>
+                    <img src={IconPpt} />
+                    <div>부귀영화 발제</div>
+                </div>,
             ]
         },
         {
