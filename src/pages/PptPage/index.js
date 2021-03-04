@@ -72,7 +72,7 @@ const PptPage = () => {
                     })}
                 </div>
                 <div className="ppt-right">
-                    <img src={item.url[listIndex]} />
+                    <img className="ppt-main-image" src={item.url[listIndex]} />
                 </div>
             </div>
             }

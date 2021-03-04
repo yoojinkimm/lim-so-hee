@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useContext } from 'react';
 import '../../App.css';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { Button, Row, Col } from 'react-bootstrap';
 import './sapari.css';
 
@@ -32,10 +32,17 @@ import Tag2 from '../../data/images/google_tag2.svg';
 import IconTime from '../../data/icons/time.svg';
 import TextDelete from '../../data/images/삭제.svg';
 
+import Linkareer from '../../data/images/링커리어.png';
+import Saramin from '../../data/images/사람인.png';
+import Wevity from '../../data/images/위비티.png';
+import Campuspick from '../../data/images/캠퍼스픽.png';
+
 
 const SapariPage = () => {
   const history = useHistory();
   const { user } = useContext(UserContext);
+  const [showSite, setShowSite] = useState('google');
+
   const [showSearch, setShowSearch] = useState(false);
   const [update, setUpdate] = useState(false);
 
@@ -92,39 +99,61 @@ const SapariPage = () => {
 
             <img className="sapari-address" src={GoogleAddress} />
         </div>
-
-
-        <div className="sapari-contents">
-            <div className="sapari-floating">
-                <img className="google-gmail profile-logo click" src={TextGmail} onClick={() => history.push('/sapari/gmail')} />
-                <img className="google-image profile-logo" src={TextImage} />
-                <img className="google-menu profile-logo" src={IconMenu} />
-                <img className="google-account profile-logo" src={IconAccount} />
-            </div>
-
-            <img className="google-logo" src={GoogleLogo} />
-            <img className="google-search-bar click" src={GoogleSearchBar} onClick={handleSearch} />
-            { showSearch  &&
-                <div className="search-history">
-                    {historyList.map((item, index) => {
-                        return(
-                            <div className="history-item">
-                                <div style={{display: 'flex', flexDirection: 'row'}}>
-                                    <img src={IconTime} />
-                                    <div className="history-text">{item}</div>
-                                </div>
-                                <div className="delete-text click" onClick={() => deleteList(index)}>삭제</div>
-                            </div>
-                        )
-                    })}
-                </div>
-            }
-
-            <div className="tag-container">
-                <img className="google-tag" src={Tag1} />
-                <img className="google-tag" src={Tag2} />
-            </div>
+         <div className="header-second">
+             <div className="bookmark click" onClick={() => setShowSite('google')}>Google</div>
+             <div className="bookmark click" onClick={() => setShowSite('saramin')}>saramin사람인</div>
+             <div className="bookmark click" onClick={() => setShowSite('linkareer')}>링커리어-LINKareer</div>
+             <div className="bookmark click" onClick={() => setShowSite('wevity')}>위비티-공모전 대외활동</div>
+             <div className="bookmark click" onClick={() => setShowSite('campuspick')}>캠퍼스픽-대학생SNS</div>
         </div>
+
+
+        {showSite === 'google' &&
+            <div className="sapari-contents">
+                <div className="sapari-floating">
+                    <img className="google-gmail profile-logo click" src={TextGmail} onClick={() => history.push('/sapari/gmail')} />
+                    <img className="google-image profile-logo" src={TextImage} />
+                    <img className="google-menu profile-logo" src={IconMenu} />
+                    <img className="google-account profile-logo" src={IconAccount} />
+                </div>
+
+                <img className="google-logo" src={GoogleLogo} />
+                <img className="google-search-bar click" src={GoogleSearchBar} onClick={handleSearch} />
+                { showSearch  &&
+                    <div className="search-history">
+                        {historyList.map((item, index) => {
+                            return(
+                                <div className="history-item">
+                                    <div style={{display: 'flex', flexDirection: 'row'}}>
+                                        <img src={IconTime} />
+                                        <div className="history-text">{item}</div>
+                                    </div>
+                                    <div className="delete-text click" onClick={() => deleteList(index)}>삭제</div>
+                                </div>
+                            )
+                        })}
+                    </div>
+                }
+
+                <div className="tag-container">
+                    <img className="google-tag" src={Tag1} />
+                    <img className="google-tag" src={Tag2} />
+                </div>
+            </div> 
+        }
+
+        {showSite === 'saramin' &&
+            <img className="sapari-bookmark" src={Saramin} />
+        }
+        {showSite === 'linkareer' &&
+            <img className="sapari-bookmark" src={Linkareer} />
+        }
+        {showSite === 'wevity' &&
+            <img className="sapari-bookmark" src={Wevity} />
+        }
+        {showSite === 'campuspick' &&
+            <img className="sapari-bookmark" src={Campuspick} />
+        }
 
         <img className="footer image" src={SapariFooter} />
 

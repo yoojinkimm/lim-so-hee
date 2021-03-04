@@ -25,7 +25,7 @@ const LandingPage = () => {
   return (
     <div className="landing-background">
         {/* <div className="landing-circle" /> */}
-        <div className="landing-title">@lsh_623</div>
+        <div className="landing-title">임소희 @lsh_623</div>
         
         <div className="loading-container">
           <animated.div className="loading-box" style={props} />
