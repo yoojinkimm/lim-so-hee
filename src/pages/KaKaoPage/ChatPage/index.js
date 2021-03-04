@@ -15,7 +15,7 @@ import IconRed from '../../../data/icons/btn_red.svg';
 import IconYellow from '../../../data/icons/btn_yellow.svg';
 import IconGreen from '../../../data/icons/btn_green.svg';
 
-import Chat from '../../../data/images/채팅.svg';
+import ChatList_나 from '../../../data/images/나와 채팅.svg';
 import ChatList_공모전 from '../../../data/images/채팅목록_공모전.svg';
 import ChatList_다람이 from '../../../data/images/채팅목록_다람이.svg';
 import ChatList_동기들 from '../../../data/images/채팅목록_동기들.svg';
@@ -28,15 +28,22 @@ import ChatList_콘마스 from '../../../data/images/채팅목록_콘마스.svg'
 import ChatList_한울자매 from '../../../data/images/채팅목록_한울자매.svg';
 
 import Chat_공모전 from '../../../data/images/채팅_공모전.svg';
-import Chat_나 from '../../../data/images/채팅_나.svg';
+// import Chat_나 from '../../../data/images/채팅_나.svg';
+import Chat_나 from '../../../data/images/나.svg';
 import Chat_동기들 from '../../../data/images/채팅_동기들.svg';
 import Chat_서포터즈 from '../../../data/images/채팅_서포터즈.svg';
-import Chat_아빠 from '../../../data/images/채팅_아빠.svg';
-import Chat_엄마 from '../../../data/images/채팅_엄마.svg';
+//import Chat_아빠 from '../../../data/images/채팅_아빠.svg';
+import Chat_아빠 from '../../../data/images/아빠.svg';
+// import Chat_엄마 from '../../../data/images/채팅_엄마.svg';
+import Chat_엄마 from '../../../data/images/엄마.svg';
 import Chat_이세린 from '../../../data/images/채팅_이세린.svg';
-import Chat_임희준 from '../../../data/images/채팅_임희준.svg';
-import Chat_콘마스 from '../../../data/images/채팅_콘마스.svg';
+// import Chat_임희준 from '../../../data/images/채팅_임희준.svg';
+import Chat_임희준 from '../../../data/images/임희준.svg';
+// import Chat_콘마스 from '../../../data/images/채팅_콘마스.svg';
+import Chat_콘마스 from '../../../data/images/콘텐츠 마케팅 스터디.svg';
 import Chat_한울자매 from '../../../data/images/채팅_한울자매.svg';
+import Chat_최수진 from '../../../data/images/최수진.svg';
+import Chat_GS25 from '../../../data/images/GS25 사장님.svg';
 
 import Footer_Chat from '../../../data/images/채팅 푸터.svg';
 
