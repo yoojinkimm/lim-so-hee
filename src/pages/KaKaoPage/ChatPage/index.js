@@ -15,7 +15,6 @@ import IconRed from '../../../data/icons/btn_red.svg';
 import IconYellow from '../../../data/icons/btn_yellow.svg';
 import IconGreen from '../../../data/icons/btn_green.svg';
 
-import ChatList_나 from '../../../data/images/나와 채팅.svg';
 import ChatList_공모전 from '../../../data/images/채팅목록_공모전.svg';
 import ChatList_다람이 from '../../../data/images/채팅목록_다람이.svg';
 import ChatList_동기들 from '../../../data/images/채팅목록_동기들.svg';
@@ -30,6 +29,7 @@ import ChatList_한울자매 from '../../../data/images/채팅목록_한울자�
 import Chat_공모전 from '../../../data/images/채팅_공모전.svg';
 // import Chat_나 from '../../../data/images/채팅_나.svg';
 import Chat_나 from '../../../data/images/나.svg';
+import Chat_나와채팅 from '../../../data/images/나와 채팅.svg';
 import Chat_동기들 from '../../../data/images/채팅_동기들.svg';
 import Chat_서포터즈 from '../../../data/images/채팅_서포터즈.svg';
 //import Chat_아빠 from '../../../data/images/채팅_아빠.svg';

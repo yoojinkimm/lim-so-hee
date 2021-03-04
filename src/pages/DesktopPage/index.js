@@ -13,6 +13,7 @@ import { UserContext } from '../../providers/UserProvider';
 
 import InstaIcon from '../../data/icons/Instagram_icon.png';
 import TaxiIcon from '../../data/icons/카카오택시 아이콘.svg';
+import StickerMemo from '../../data/images/스티커메모.svg';
 
 
 const DesktopPage = () => {
@@ -64,6 +65,23 @@ const DesktopPage = () => {
                         <div className="icon-txt">내 계정 바로가기</div>
                     </div>
                 </Col>
+            </Row>
+            <Row style={{width: '100%'}}>
+                <Col>
+                    <div className='sticker-memo-container'>
+                        <img className='sticker-memo' src={StickerMemo} />
+                        <div className="todo-text">
+                            todo <br />
+                            <br />
+                            방학 목표: 토익 900 넘기 <br />
+                            자소서 3번 초안 다 쓰기 <br />
+                            블로그 글 쓰기 <br />
+                            콘마스 세션 준비 <br />
+                        </div>
+                    </div>
+                </Col>
+                <Col></Col>
+                <Col></Col>
             </Row>
         </div>
 
