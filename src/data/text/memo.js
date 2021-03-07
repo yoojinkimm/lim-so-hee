@@ -6,6 +6,9 @@ import image1003_1 from '../images/일기1003_1.png';
 import image1003_2 from '../images/일기1003_2.png';
 import image1003_3 from '../images/일기1003_3.png';
 
+import image1022_1 from '../images/review_1.jpeg';
+import image1022_2 from '../images/review_2.jpeg';
+
 export const diaryFolderNum = 1;
 export const diaryFolderPW = 'inside623';
 export const diaryPWhint = <>_OOOOOO, _OOO <br /> 바공개 계정 + 공개 계정</>;
@@ -80,6 +83,11 @@ export const folder1List = [
       ~~GH, TJ 제출 (10/30)~~<br />
       ~~Kyopo 초안 (11/1)~~<br />
       ~~Kyopo 제출 (11/3 13:00)~~<br />
+      </>},
+      {title: '부국제 영화 review', date: '2020.10.22', 
+      contents: <>
+        <img src={image1022_1} style={{width: '100%'}} />
+        <img src={image1022_2} style={{width: '100%'}} />
       </>},
       {title: '면접 예상 질문', date: '2020.11.25', 
       contents: <>

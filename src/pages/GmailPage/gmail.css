@@ -29,7 +29,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .gmail-header {
@@ -89,6 +89,10 @@
 }
 .mail-contents-text {
   padding: 50px;
+  height: 65vh;
+  position: absolute;
+  bottom: 0;
+  overflow: scroll;
 }
 .email-image {
   width: 100%;

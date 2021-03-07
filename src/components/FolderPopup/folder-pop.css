@@ -40,3 +40,9 @@
   margin-top: 26px;
   padding: 12px !important;
 }
+.img-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
