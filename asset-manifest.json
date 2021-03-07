@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.330ffee7.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.8726ca02.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.8726ca02.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.0a049b82.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.5d3964ca.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.5d3964ca.chunk.js.map",
     "runtime-main.js": "/lim-so-hee/static/js/runtime-main.5771ba73.js",
     "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.5771ba73.js.map",
     "static/js/2.66d75065.chunk.js": "/lim-so-hee/static/js/2.66d75065.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.891e7335.chunk.js": "/lim-so-hee/static/js/3.891e7335.chunk.js",
     "static/js/3.891e7335.chunk.js.map": "/lim-so-hee/static/js/3.891e7335.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.330ffee7.chunk.css.map": "/lim-so-hee/static/css/main.330ffee7.chunk.css.map",
+    "static/css/main.0a049b82.chunk.css.map": "/lim-so-hee/static/css/main.0a049b82.chunk.css.map",
     "static/js/2.66d75065.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.66d75065.chunk.js.LICENSE.txt",
     "static/media/(주)제우마케팅인턴.cce10eb2.svg": "/lim-so-hee/static/media/(주)제우마케팅인턴.cce10eb2.svg",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
@@ -180,7 +180,7 @@
   "entrypoints": [
     "static/js/runtime-main.5771ba73.js",
     "static/js/2.66d75065.chunk.js",
-    "static/css/main.330ffee7.chunk.css",
-    "static/js/main.8726ca02.chunk.js"
+    "static/css/main.0a049b82.chunk.css",
+    "static/js/main.5d3964ca.chunk.js"
   ]
 }
