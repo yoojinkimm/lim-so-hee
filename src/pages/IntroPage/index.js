@@ -191,7 +191,6 @@ const IntroPage = () => {
                             </Typing>
                             </div>
                         }
-
                 </>
                 }
             </div>
@@ -218,14 +217,24 @@ const IntroPage = () => {
         </>
         }
         {storyStep >= 1 &&
-        <Row style={{display: 'flex', alignItems: 'center', width: '100%'}}>
-            <Col xl={7} md={7} sm={7}>
-                <ShowText num={storyStep} />
-            </Col>
-            <Col xl={5} md={5} sm={5}>
-                <img className="intro-phone" src={PhoneCall} />
-            </Col>
-        </Row>
+        <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
+            <Row style={{display: 'flex', alignItems: 'center', width: '100%'}}>
+                <Col xl={7} md={7} sm={7}>
+                    <ShowText num={storyStep} />
+                </Col>
+                <Col xl={5} md={5} sm={5}>
+                    <img className="intro-phone" src={PhoneCall} />
+                </Col>
+            </Row>
+            <Row style={{display: 'flex', alignItems: 'center', width: '100%'}}>
+                <div 
+                  className="click"
+                  onClick={() => history.push('/intro')}
+                  style={{color: 'white', marginLeft: 60, fontSize: 20}}>
+                    >>skip
+                </div>
+            </Row>
+        </div>
         }
     </div>
   );
