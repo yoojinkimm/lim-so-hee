@@ -33,7 +33,7 @@ const WordPage = () => {
 
   useEffect(() => {
       if (location.state !== undefined){
-          if (location.state.title === "자기소개서") setItem(data.text[0])
+          if (location.state.title === "(주)제우 마케팅 인턴") setItem(data.text[0])
           else if (location.state.title === "아이디어") setItem(data.text[1])
           else if (location.state.title === "시나리오1") setItem(data.text[2])
           else if (location.state.title === "시나리오2") setItem(data.text[3])

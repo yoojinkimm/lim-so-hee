@@ -17,7 +17,7 @@ import apply from '../images/부귀영화 지원서.jpg';
 export const text = [
     {
         index: 0,
-        title: '자기소개서',
+        title: '(주)제우 마케팅 인턴',
         contents: [ <>
         <br />
         (주)제우 자소서 <br />

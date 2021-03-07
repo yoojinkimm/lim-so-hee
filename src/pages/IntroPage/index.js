@@ -203,7 +203,7 @@ const IntroPage = () => {
   return (
     <div className="intro-background">
         {storyStep === 0 &&
-        <>
+        <div style={{display: 'flex', flexDirection: 'column', width: '100%', alignItems: 'center'}}>
             <img className="intro-phone ring" 
             onClick={() => {
                 SetStoryStep(1);
@@ -214,7 +214,15 @@ const IntroPage = () => {
             src={BellRingSound}
             autoPlay
             /> */}
-        </>
+            <Row style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'center'}}>
+                <div 
+                  className="click"
+                  onClick={() => history.push('/intro')}
+                  style={{color: 'white', fontSize: 30}}>
+                    >>skip
+                </div>
+            </Row>
+        </div>
         }
         {storyStep >= 1 &&
         <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
@@ -225,14 +233,6 @@ const IntroPage = () => {
                 <Col xl={5} md={5} sm={5}>
                     <img className="intro-phone" src={PhoneCall} />
                 </Col>
-            </Row>
-            <Row style={{display: 'flex', alignItems: 'center', width: '100%'}}>
-                <div 
-                  className="click"
-                  onClick={() => history.push('/intro')}
-                  style={{color: 'white', marginLeft: 60, fontSize: 20}}>
-                    >>skip
-                </div>
             </Row>
         </div>
         }

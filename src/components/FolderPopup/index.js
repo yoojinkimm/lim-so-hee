@@ -58,13 +58,7 @@ const FolderPopup = ({folderName, show, setShow}) => {
             index: 0,
             folderName : '취업준비',
             contents: [
-                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "자기소개서"}})}>
-                    <div className="img-container">
-                        <img src={IconWord} />
-                    </div>
-                    <div>자기소개서.docx</div>
-                </div>,
-                <div className="folder-icon">
+                <div className="folder-icon click" onClick={() => history.push({pathname: '/word', state: { title : "(주)제우 마케팅 인턴"}})}>
                     <div className="img-container">
                         <img src={Thumb_Zewoo_word} style={{width: 43}} />
                     </div>
