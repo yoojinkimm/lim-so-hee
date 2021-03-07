@@ -57,6 +57,8 @@
 .chat-detail-container {
   height: 90vh;
   overflow: scroll;
+  width: 500px;
+  background-color: #bed4de;
 }
 .chat-detail-header {
   position: absolute;

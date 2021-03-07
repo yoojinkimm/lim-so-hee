@@ -19,8 +19,8 @@ import Icon_Chat from '../../../data/images/채팅 버튼.svg';
 import Icon_Friend from '../../../data/images/친구 버튼.svg';
 
 import Profile from '../../../data/images/프로필+즐찾.svg';
-import FriendList from '../../../data/images/친구 목록.svg';
-
+// import FriendList from '../../../data/images/친구 목록.svg';
+import FriendList from '../../../data/images/친구목록_수정.svg';
 
 const KakaoPage = ({num}) => {
   const history = useHistory();

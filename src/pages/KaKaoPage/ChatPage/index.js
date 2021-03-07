@@ -20,16 +20,19 @@ import ChatList_다람이 from '../../../data/images/채팅목록_다람이.svg'
 import ChatList_동기들 from '../../../data/images/채팅목록_동기들.svg';
 import ChatList_서포터즈 from '../../../data/images/채팅목록_서포터즈.svg';
 import ChatList_아빠 from '../../../data/images/채팅목록_아빠.svg';
-import ChatList_엄마 from '../../../data/images/채팅목록_엄마.svg';
+// import ChatList_엄마 from '../../../data/images/채팅목록_엄마.svg';
+import ChatList_엄마 from '../../../data/images/엄마(채팅목록)_수정.svg';
 import ChatList_이세린 from '../../../data/images/채팅목록_이세린.svg';
-import ChatList_임희준 from '../../../data/images/채팅목록_임희준.svg';
+// import ChatList_임희준 from '../../../data/images/채팅목록_임희준.svg';
+import ChatList_임희준 from '../../../data/images/임희준(채팅목록)_수정.svg';
 import ChatList_콘마스 from '../../../data/images/채팅목록_콘마스.svg';
 import ChatList_한울자매 from '../../../data/images/채팅목록_한울자매.svg';
+import ChatList_나와채팅 from '../../../data/images/나(채팅목록).svg';
+import ChatList_최수진 from '../../../data/images/최수진(채팅목록).svg';
+import ChatList_GS사장님 from '../../../data/images/GS사장님(채팅목록).svg';
 
 import Chat_공모전 from '../../../data/images/채팅_공모전.svg';
-// import Chat_나 from '../../../data/images/채팅_나.svg';
-import Chat_나 from '../../../data/images/나.svg';
-import Chat_나와채팅 from '../../../data/images/나와 채팅.svg';
+import Chat_나 from '../../../data/images/채팅_나.svg';
 import Chat_동기들 from '../../../data/images/채팅_동기들.svg';
 import Chat_서포터즈 from '../../../data/images/채팅_서포터즈.svg';
 //import Chat_아빠 from '../../../data/images/채팅_아빠.svg';
@@ -42,8 +45,9 @@ import Chat_임희준 from '../../../data/images/임희준.svg';
 // import Chat_콘마스 from '../../../data/images/채팅_콘마스.svg';
 import Chat_콘마스 from '../../../data/images/콘텐츠 마케팅 스터디.svg';
 import Chat_한울자매 from '../../../data/images/채팅_한울자매.svg';
+import Chat_나와채팅 from '../../../data/images/나.svg';
 import Chat_최수진 from '../../../data/images/최수진.svg';
-import Chat_GS25 from '../../../data/images/GS25 사장님.svg';
+import Chat_GS25 from '../../../data/images/GS25사장님.svg';
 
 import Footer_Chat from '../../../data/images/채팅 푸터.svg';
 
@@ -57,6 +61,9 @@ import Header_동생 from '../../../data/images/톡방헤더_임희준.svg';
 import Header_아빠 from '../../../data/images/톡방헤더_아빠.svg';
 import Header_엄마 from '../../../data/images/톡방헤더_엄마.svg';
 import Header_이세린 from '../../../data/images/톡방헤더_이세린.svg';
+import Header_나와채팅 from '../../../data/images/나(헤더).svg';
+import Header_최수진 from '../../../data/images/최수진(헤더).svg';
+import Header_GS사장님 from '../../../data/images/GS 사장님(헤더).svg';
 
 import Icon_Chat from '../../../data/images/채팅 버튼.svg';
 import Icon_Friend from '../../../data/images/친구 버튼.svg';
@@ -112,6 +119,19 @@ const KakaoChatPage = ({num}) => {
         setShowItem(Chat_한울자매); 
         setShowFloating(Header_한울자매);
     }
+
+    else if(nowChat==='나와채팅') {
+        setShowItem(Chat_나와채팅); 
+        setShowFloating(Header_나와채팅);
+    }
+    else if(nowChat==='최수진') {
+        setShowItem(Chat_최수진); 
+        setShowFloating(Header_최수진);
+    }
+    else if(nowChat==='GS사장님') {
+        setShowItem(Chat_GS25); 
+        setShowFloating(Header_GS사장님);
+    }
     console.log(user)
   }, [nowChat])
 
@@ -143,16 +163,19 @@ const KakaoChatPage = ({num}) => {
                 
                 <div className="chat-list">
                     <div className="chat-header" />
-                    <img className="click chat-list-item" src={ChatList_공모전} onClick={() => setNowChat('공모전')} />
+                    <img className="click chat-list-item" src={ChatList_GS사장님} onClick={() => setNowChat('GS사장님')} />
                     <img className="click chat-list-item" src={ChatList_다람이} onClick={() => setNowChat('나')} />
-                    <img className="click chat-list-item" src={ChatList_동기들} onClick={() => setNowChat('동기들')} />
+                    <img className="click chat-list-item" src={ChatList_공모전} onClick={() => setNowChat('공모전')} />
                     <img className="click chat-list-item" src={ChatList_서포터즈} onClick={() => setNowChat('서포터즈')} />
-                    <img className="click chat-list-item" src={ChatList_아빠} onClick={() => setNowChat('아빠')} />
-                    <img className="click chat-list-item" src={ChatList_엄마} onClick={() => setNowChat('엄마')} />
                     <img className="click chat-list-item" src={ChatList_이세린} onClick={() => setNowChat('이세린')} />
-                    <img className="click chat-list-item" src={ChatList_임희준} onClick={() => setNowChat('임희준')} />
+                    <img className="click chat-list-item" src={ChatList_엄마} onClick={() => setNowChat('엄마')} />
+                    <img className="click chat-list-item" src={ChatList_동기들} onClick={() => setNowChat('동기들')} />
                     <img className="click chat-list-item" src={ChatList_콘마스} onClick={() => setNowChat('콘마스')} />
+                    <img className="click chat-list-item" src={ChatList_임희준} onClick={() => setNowChat('임희준')} />
+                    <img className="click chat-list-item" src={ChatList_아빠} onClick={() => setNowChat('아빠')} />
                     <img className="click chat-list-item" src={ChatList_한울자매} onClick={() => setNowChat('한울자매')} />
+                    <img className="click chat-list-item" src={ChatList_나와채팅} onClick={() => setNowChat('나와채팅')} />
+                    <img className="click chat-list-item" src={ChatList_최수진} onClick={() => setNowChat('최수진')} />
                 </div>
                 </Col>
                 <Col>
