@@ -38,6 +38,13 @@ const receivedList = [
 ]
 
 const sentList = [
+      {mail: 'bhkaaa34@gmail.com', title: 'GS25 정발산역점 야간타임 아르바이트 지원', date: '12월 24일'},
+      {mail: 'megaCoffee@megacf.co.kr', title: '메가커피 신촌점 평일 오전타임 아르바이트 지원', date: '12월 23일'},
+      {mail: 'nnmxc786@gmail.com', title: '파리바게트 대흥역점 주말 오후타임 아르바이트 지원', date: '12월 21일'},
+      {mail: 'sy12gm@naver.com', title: '메가박스 신촌점 평일 저녁 아르바이트 지원', date: '12월 19일'},
+      {mail: 'pye1280@gmail.com', title: '롯데시네마 홍대입구 주말 미들 아르바이트 지원', date: '12월 18일'},
+      {mail: 'cj_hr@cj.co.kr', title: 'CJ ENM 인사팀 사무보조 아르바이트 지원', date: '12월 16일'},
+      {mail: 'cj_maketing@cj.co.kr', title: 'CJ ENM 인사팀 사무보조 아르바이트 지원', date: '12월 16일'},
       {mail: '제우 인사팀', title: '동계 인턴십 서류 지원', date: '11월 16일'},
       {mail: '한국장학재단', title: '2020-2학기 생활비 대출 신청', date: '11월 10일'},
 ]
