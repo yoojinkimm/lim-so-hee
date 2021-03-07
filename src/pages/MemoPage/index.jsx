@@ -37,7 +37,8 @@ const MemoPage = () => {
       var list = []
 
       if(showFolder === 0) list = data.folder1List;
-      if(showFolder === 1) list = data.folder2List;
+      else if(showFolder === 1) list = data.folder2List;
+      else if(showFolder === 2) list = data.folder3List;
 
       return(
           <div className="memo-list">
@@ -62,7 +63,8 @@ const MemoPage = () => {
   const showMemoContent = () => {
       var list = []
       if(showFolder === 0) list = data.folder1List;
-      if(showFolder === 1) list = data.folder2List;
+      else if(showFolder === 1) list = data.folder2List;
+      else if(showFolder === 2) list = data.folder3List;
 
       return(
           <div className="memo-text">
@@ -84,7 +86,9 @@ const MemoPage = () => {
             </>
             :
             <>
-                <div className="date-container">{`${list[showMemo].date.slice(0,4)}년 ${list[showMemo].date.slice(5,7)}월 ${list[showMemo].date.slice(8,10)}일`}</div>
+                <div className="date-container">
+                    {showFolder !== 2 && `${list[showMemo].date.slice(0,4)}년 ${list[showMemo].date.slice(5,7)}월 ${list[showMemo].date.slice(8,10)}일`}
+                </div>
                 <div className="memo-title">{list[showMemo].title}</div>
                 {list[showMemo].contents}
             </>
@@ -132,6 +136,12 @@ const MemoPage = () => {
                 color: showFolder === 1 ? 'white' : 'rgba(150, 150, 150)'}}
                 onClick={() => changeFolder(1)}>
                     <div>일기</div><div>{data.folder2List.length}</div>
+                </div>
+                <div className="memo-menu-item click" 
+                style={{backgroundColor: showFolder === 2 && 'rgba(80,80,80, 0.6)',
+                color: showFolder === 2 ? 'white' : 'rgba(150, 150, 150)'}}
+                onClick={() => changeFolder(2)}>
+                    <div>영화리뷰</div><div>{data.folder2List.length}</div>
                 </div>
             </Col>
 
