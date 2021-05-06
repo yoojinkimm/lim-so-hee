@@ -37,7 +37,7 @@ const Dock = () => {
 
     return(
         <>
-        { path !== '/intro' && path !== '/start' && path !== '/'
+        { path !== '/intro' && path !== '/start' && path !== '/' && path !== '/ending'
         &&
         <div className="desktop-bottom-floating">
             <div className="desktop-dock">

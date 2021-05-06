@@ -132,7 +132,7 @@ const KakaoChatPage = ({num}) => {
         setShowItem(Chat_GS25); 
         setShowFloating(Header_GS사장님);
     }
-    console.log(user)
+    // console.log(user)
   }, [nowChat])
 
 

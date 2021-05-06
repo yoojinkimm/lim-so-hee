@@ -307,7 +307,7 @@ const FolderPopup = ({folderName, show, setShow}) => {
             list.push(name);
             setNowFolder(list);
             setUpdate(!update);
-            console.log(list);
+            // console.log(list);
     }
 
     const goBackFolder = () => {

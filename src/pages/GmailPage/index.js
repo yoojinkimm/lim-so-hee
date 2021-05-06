@@ -218,7 +218,7 @@ const GmailPage = () => {
   const showMailContent = () => {
       let nowItem = mail_contents[showMailNum]
 
-      console.log(nowItem)
+      // console.log(nowItem)
 
       return (
         <div className="mail-cotents-container">

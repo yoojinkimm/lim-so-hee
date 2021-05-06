@@ -90,7 +90,7 @@ const TaxiPopup = ({show, setShow}, props) => {
                         resolve(p.coords)
                     }
                 );
-                console.log(p)
+                // console.log(p)
             });
         }).then((coords) => {
             return new Promise((resolve, reject) => {
@@ -104,9 +104,9 @@ const TaxiPopup = ({show, setShow}, props) => {
                         })
                     });
                     setCountryCode( data.country_code )
-                    console.log(data.city)
+                    // console.log(data.city)
                 }).catch((err) => {
-                    console.error(err);
+                    // console.error(err);
                 });
             })
         }).then((coords) => {
@@ -121,7 +121,7 @@ const TaxiPopup = ({show, setShow}, props) => {
                 setAddress(
                     results[results.length - 1].formatted_address
                 )
-                console.log( results[results.length - 1].formatted_address )
+                // console.log( results[results.length - 1].formatted_address )
             });
         });
     }
@@ -142,7 +142,7 @@ const TaxiPopup = ({show, setShow}, props) => {
     })
 
     useEffect(() => {
-        console.log(rightAnswer)
+        // console.log(rightAnswer)
         if (rightAnswer === '할머니집') {
             setShowResult(<>
                 <div className="wrong-again" onClick={() => setRightAnswer(-1)}>다시</div>

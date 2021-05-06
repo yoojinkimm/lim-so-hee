@@ -22,7 +22,7 @@ const DesktopPage = () => {
   const { user, f2020, setF2020, job, setJob, taxi, setTaxi } = useContext(UserContext);
 
   useEffect(() => {
-      if( user !== null) console.log('현재 이용자: ', user.name)
+      // if( user !== null) console.log('현재 이용자: ', user.name)
   }, [])
 
   const goInstagram = () => {

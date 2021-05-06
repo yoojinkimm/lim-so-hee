@@ -45,7 +45,7 @@ function App({history}) {
 
   useEffect(() => {
     if(navigator.platform){
-      console.log(navigator.platform)
+      // console.log(navigator.platform)
       if(0 > filter.indexOf(navigator.platform.toLowerCase())){
         setDevice("Mobile");
       }
