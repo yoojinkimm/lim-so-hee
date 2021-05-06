@@ -135,6 +135,11 @@ const TaxiPopup = ({show, setShow}, props) => {
         setTimeout(() => {
             setShowLogo(false);
         }, 3500)
+
+        // clean up
+        return () => {
+            setShow(false);
+        }
     }, [])
 
     useEffect(() => {
