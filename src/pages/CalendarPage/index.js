@@ -63,6 +63,8 @@ const CalendarPage = ({num}) => {
         <div className="calendar-container">
             <Carousel 
                 activeIndex={carouselIndex}
+                nextIcon={<span aria-hidden="true" className="carousel-control-icon">다음</span>}
+                prevIcon={<span aria-hidden="true" className="carousel-control-icon">이전</span>}
                 onSelect={handleSelect}
                 indicators={false}
                 interval={10000000}
