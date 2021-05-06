@@ -145,7 +145,7 @@ const KakaoChatPage = ({num}) => {
         </div> */}
         <div className="header-back kakao-window" style={{backgroundColor: "#e9e9e9"}}>
             <div className="window-btn-container">
-                <img className="window-btn click" src={IconRed} onClick={() => history.goBack()} />
+                <img className="window-btn click" src={IconRed} onClick={() => history.push('/desktop')} />
                 <img className="window-btn click" src={IconYellow} onClick={() => history.goBack()} />
                 <img className="window-btn click" src={IconGreen} />
             </div>
