@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lim-so-hee/static/css/main.349b03b4.chunk.css",
-    "main.js": "/lim-so-hee/static/js/main.fba75c00.chunk.js",
-    "main.js.map": "/lim-so-hee/static/js/main.fba75c00.chunk.js.map",
-    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.a1abd50b.js",
-    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.a1abd50b.js.map",
-    "static/js/2.98413a9d.chunk.js": "/lim-so-hee/static/js/2.98413a9d.chunk.js",
-    "static/js/2.98413a9d.chunk.js.map": "/lim-so-hee/static/js/2.98413a9d.chunk.js.map",
-    "static/js/3.cc955ed9.chunk.js": "/lim-so-hee/static/js/3.cc955ed9.chunk.js",
-    "static/js/3.cc955ed9.chunk.js.map": "/lim-so-hee/static/js/3.cc955ed9.chunk.js.map",
+    "main.css": "/lim-so-hee/static/css/main.d86583d7.chunk.css",
+    "main.js": "/lim-so-hee/static/js/main.03ced4f1.chunk.js",
+    "main.js.map": "/lim-so-hee/static/js/main.03ced4f1.chunk.js.map",
+    "runtime-main.js": "/lim-so-hee/static/js/runtime-main.cf39345e.js",
+    "runtime-main.js.map": "/lim-so-hee/static/js/runtime-main.cf39345e.js.map",
+    "static/js/2.cfe296fc.chunk.js": "/lim-so-hee/static/js/2.cfe296fc.chunk.js",
+    "static/js/2.cfe296fc.chunk.js.map": "/lim-so-hee/static/js/2.cfe296fc.chunk.js.map",
+    "static/js/3.ada8208d.chunk.js": "/lim-so-hee/static/js/3.ada8208d.chunk.js",
+    "static/js/3.ada8208d.chunk.js.map": "/lim-so-hee/static/js/3.ada8208d.chunk.js.map",
     "index.html": "/lim-so-hee/index.html",
-    "static/css/main.349b03b4.chunk.css.map": "/lim-so-hee/static/css/main.349b03b4.chunk.css.map",
-    "static/js/2.98413a9d.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.98413a9d.chunk.js.LICENSE.txt",
+    "static/css/main.d86583d7.chunk.css.map": "/lim-so-hee/static/css/main.d86583d7.chunk.css.map",
+    "static/js/2.cfe296fc.chunk.js.LICENSE.txt": "/lim-so-hee/static/js/2.cfe296fc.chunk.js.LICENSE.txt",
     "static/media/(주)제우마케팅인턴.cce10eb2.svg": "/lim-so-hee/static/media/(주)제우마케팅인턴.cce10eb2.svg",
     "static/media/After Effects.2794c1d6.svg": "/lim-so-hee/static/media/After Effects.2794c1d6.svg",
     "static/media/Back Button.5e7993fa.svg": "/lim-so-hee/static/media/Back Button.5e7993fa.svg",
@@ -174,13 +174,13 @@
     "static/media/톡방헤더_콘마스.ef80384a.svg": "/lim-so-hee/static/media/톡방헤더_콘마스.ef80384a.svg",
     "static/media/톡방헤더_한울자매.50a36f25.svg": "/lim-so-hee/static/media/톡방헤더_한울자매.50a36f25.svg",
     "static/media/프로필+즐찾.6cfcf581.svg": "/lim-so-hee/static/media/프로필+즐찾.6cfcf581.svg",
-    "static/media/할머니집1.447482fb.jpg": "/lim-so-hee/static/media/할머니집1.447482fb.jpg",
+    "static/media/할머니집1.447482fb.jpeg": "/lim-so-hee/static/media/할머니집1.447482fb.jpeg",
     "static/media/할머니집2.bf9339e1.jpg": "/lim-so-hee/static/media/할머니집2.bf9339e1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1abd50b.js",
-    "static/js/2.98413a9d.chunk.js",
-    "static/css/main.349b03b4.chunk.css",
-    "static/js/main.fba75c00.chunk.js"
+    "static/js/runtime-main.cf39345e.js",
+    "static/js/2.cfe296fc.chunk.js",
+    "static/css/main.d86583d7.chunk.css",
+    "static/js/main.03ced4f1.chunk.js"
   ]
 }
